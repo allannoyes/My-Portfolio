@@ -1,0 +1,346 @@
+
+/*
+ ================ SASS IMPORTS ================
+*/
+
+@import 'scss/reset';
+@import 'scss/fonts';
+@import 'scss/variables';
+@import 'scss/mixins';
+@import 'scss/grid';
+@import 'scss/navigation';
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+
+
+/*
+ ================ TYPOGRAPHY ================
+*/
+
+
+h1, h2, h3, h4, h4, h6 {
+	font-family: $ddc-font;
+	letter-spacing: .05em;
+}
+
+
+h2 {
+	font: 2em/.9em $ddc-font;
+	color: $lightblue;
+	margin-bottom: 5px;
+}
+
+
+
+h3 {
+	font: 1.5em $ddc-font;
+	color: $lightblue;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+p {
+	color: $darkblue;
+	font: 1em/1.5em $body-font;
+	margin-bottom: 15px;
+}
+
+ul {
+	margin-bottom: 15px;
+}
+
+li {
+	color: $darkblue;
+	font: 1em/1.5em $body-font;
+}
+
+
+
+
+/*
+ ================ HOME PAGE ================
+*/
+
+.title {
+	h2 {
+		margin: 0;
+		text-transform: uppercase;
+		font: 2.5em $body-font;
+		color: white;
+	}
+
+	h3 {
+		font: 1.5em $body-font;
+		color: rgba(255, 255, 255, .5);
+	}
+}
+
+.hero-light {
+	background: $lightgray;
+}
+
+.hero-dark {
+	background: $darkblue;
+}
+
+.project {
+	// height: 35vh;
+	min-height: 240px;
+}
+
+.project-info {
+	opacity: 0;
+}
+
+.project-info:hover {
+	opacity: 1;
+	width: 100%;
+	height: 100%;
+	padding: 15%;
+	background: rgba($darkblue, .7);
+	font-size: 2em;
+	text-align: center;
+	color: white;
+
+	p {
+		margin-top: -4px;
+		font: 1em $body-font;
+		color: white;
+	}
+}
+
+.solomon {
+	@include background('../img/Solomon-Corp-Thumbnail@2x.jpg');
+}
+
+.logos {
+	background: orange;
+}
+
+.green-wing {
+	@include background('../img/Green-Wing-Thumbnail@2x.jpg');
+}
+
+.sheldon {
+	@include background('../img/Sheldon-Theatre-Thumbnail@2x.jpg');
+}
+
+.mizzou-tennis {
+	@include background('../img/MIZZOU-Tennis-Thumbnail@2x.jpg');
+}
+
+
+
+
+
+
+/*
+ ================ PROJECT PAGE ================
+*/
+
+
+.project-sidebar {
+	width: 25%;
+	min-height: 100vh;
+	background: $lightgray;
+	position: fixed;
+	padding: 0 30px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.nav-back {
+	color: $gray;
+	font: 1.25em $ddc-font;
+	letter-spacing: .05em;
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+}
+
+
+main {
+	padding: 30px 0 0 25%;
+	width: 100%;
+
+	img {
+		width: 100%;
+	}
+}
+
+
+/*
+ ================ ABOUT PAGE ================
+*/
+
+
+
+.lists {
+	display: flex;
+	align-items: flex-start;
+}
+
+.two-col-list {
+	margin: 10px 20px 0 0;
+	width: 50%;
+	display: inline-block;
+}
+
+.about {
+	width: 50%;
+	margin: 15% 10% 0;
+}
+
+
+
+/*
+ ================ CONTACT PAGE ================
+*/
+
+
+.contact {
+	width: 50%;
+	margin: 5% 30%;
+
+	form {
+		padding-top: 30px;
+		border-top: 1px solid $gold;
+		width: 100%;
+
+		label, input, textarea {
+			display: block;
+			width: 100%;
+		}
+
+		label {
+			font: 1.5em $ddc-font;
+			color: $lightblue;
+		}
+
+		input, textarea {
+			margin-bottom: 25px;
+			padding: 12px;
+			background: none;
+			border: 2px solid $lightblue;
+			color: white;
+			font: 1em/1.5em $body-font;
+
+		}
+		button {
+			margin-top: 10px;
+			padding: 12px 30px;
+			color: white;
+			font: 1.5em $ddc-font;
+			letter-spacing: .05em;
+			background: $lightblue;
+			border: 0px;
+
+		}
+	}
+}
+
+.contact-info {
+
+	ul {
+		display: flex;
+		justify-content: space-between;
+	}
+}
+
+.contact-item {
+	display: inline-block;
+	margin-right: 20px;
+
+
+	p {
+		color: white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ ================ BREAKPOINTS ================
+*/
+
+
+
+@media only screen and (max-width: 959px){
+
+
+	.title {
+		h2 {
+			font: 1.75em $body-font;
+		}
+
+		h3 {
+			font-size: 1em;
+			color: rgba(255, 255, 255, .5);
+			margin: -6px 0 5px;
+		}
+	}
+
+
+
+	.nav-expanded {
+
+		ul {
+			font-size: 3.5em;
+
+			li {
+				width: 200px;
+				margin: 0 auto;
+				display: block;
+				border-right: 0px;
+				border-bottom: $line-break;
+				padding: 30px 0;
+
+				&:nth-child(3) {
+					border-bottom: 0px;
+				}
+			}
+		}
+	}
+
+	.project-sidebar {
+		width: 100%;
+		min-height: auto;
+		padding: 30px 30px 60px;
+		position: fixed;
+		bottom: 0;
+	}
+
+	main {
+		padding-left: 0;
+	}
+
+
+	.about {
+		width: 80%;
+		margin: 15% 10% 0 ;
+	}
+
+
+
+
+}

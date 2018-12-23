@@ -1,0 +1,8 @@
+/*
+* === BACKGROUND IMAGES ===
+*/
+
+@mixin background($file) {
+	background: url($file) no-repeat center center;
+	background-size: cover;
+}
