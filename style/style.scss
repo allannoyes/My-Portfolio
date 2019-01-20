@@ -1,3 +1,13 @@
+/*
+Theme Name: Allan Noyes Portfolio
+Author: Allan Noyes
+Description: This template is for the portfolio site of Allan Noyes
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: allannoyes
+*/
+
 
 /*
  ================ SASS IMPORTS ================
@@ -11,18 +21,15 @@
 @import 'scss/navigation';
 
 
-a {
-	text-decoration: none;
-}
-
-
-
 
 
 /*
- ================ TYPOGRAPHY ================
+ ================ GENERAL ================
 */
 
+a {
+	text-decoration: none;
+}
 
 h1, h2, h3, h4, h4, h6 {
 	font-family: $ddc-font;
@@ -60,7 +67,11 @@ ul {
 li {
 	color: $darkblue;
 	font: 1em/1.5em $body-font;
+	list-style-type: disc;
+	// list-style-image: url(img/bullet.png);
+	// list-style-image: url(img/bullet.png);
 }
+
 
 
 
@@ -93,18 +104,11 @@ li {
 
 .project {
 	// height: 35vh;
-	min-height: 240px;
+	min-height: 270px;
 }
 
 .project-info {
 	opacity: 0;
-}
-
-.project-info:hover {
-	opacity: 1;
-	width: 100%;
-	height: 100%;
-	padding: 15%;
 	background: rgba($darkblue, .7);
 	font-size: 2em;
 	text-align: center;
@@ -117,25 +121,12 @@ li {
 	}
 }
 
-.solomon {
-	@include background('../img/Solomon-Corp-Thumbnail@2x.jpg');
+.project-info:hover {
+	opacity: 1;
 }
 
-.logos {
-	background: orange;
-}
 
-.green-wing {
-	@include background('../img/Green-Wing-Thumbnail@2x.jpg');
-}
 
-.sheldon {
-	@include background('../img/Sheldon-Theatre-Thumbnail@2x.jpg');
-}
-
-.mizzou-tennis {
-	@include background('../img/MIZZOU-Tennis-Thumbnail@2x.jpg');
-}
 
 
 
@@ -146,7 +137,6 @@ li {
  ================ PROJECT PAGE ================
 */
 
-
 .project-sidebar {
 	width: 25%;
 	min-height: 100vh;
@@ -154,17 +144,32 @@ li {
 	position: fixed;
 	padding: 0 30px;
 	display: flex;
+	flex-wrap: wrap;
 	flex-direction: column;
 	justify-content: center;
 }
 
-.nav-back {
+.project-description{
+	align-self: center;
+}
+
+.project-footer {
+	width: 100%;
 	color: $gray;
 	font: 1.25em $ddc-font;
 	letter-spacing: .05em;
+	text-align: right;
+}
+
+.nav-back {
 	position: absolute;
 	bottom: 30px;
 	left: 30px;
+	color: $gray;
+}
+
+.details-toggle {
+	display: none;
 }
 
 
@@ -178,11 +183,11 @@ main {
 }
 
 
+
+
 /*
  ================ ABOUT PAGE ================
 */
-
-
 
 .lists {
 	display: flex;
@@ -196,9 +201,16 @@ main {
 }
 
 .about {
-	width: 50%;
+	width: 60%;
 	margin: 15% 10% 0;
+
+	li {
+		margin-left: 18px;
+	}
+
 }
+
+
 
 
 
@@ -206,14 +218,19 @@ main {
  ================ CONTACT PAGE ================
 */
 
-
 .contact {
-	width: 50%;
-	margin: 5% 30%;
+	width: 60%;
+	margin: 10% 30%;
+
+	h2 {
+		margin-bottom: 0;
+		font-size: 1.5em;
+		color: $gold;
+	}
 
 	form {
 		padding-top: 30px;
-		border-top: 1px solid $gold;
+		border-top: $line-break;
 		width: 100%;
 
 		label, input, textarea {
@@ -223,7 +240,7 @@ main {
 
 		label {
 			font: 1.5em $ddc-font;
-			color: $lightblue;
+			color: $gold;
 		}
 
 		input, textarea {
@@ -234,6 +251,9 @@ main {
 			color: white;
 			font: 1em/1.5em $body-font;
 
+			// &:focus {
+			// 	background: rgba(0, 0, 0, .1);
+			// }
 		}
 		button {
 			margin-top: 10px;
@@ -249,24 +269,28 @@ main {
 }
 
 .contact-info {
-
-	ul {
-		display: flex;
-		justify-content: space-between;
-	}
+	margin-bottom: 15px;
 }
+
 
 .contact-item {
 	display: inline-block;
-	margin-right: 20px;
-
+	margin-right: 30px;
 
 	p {
 		color: white;
 	}
 }
 
+.contact-icon {
+	display: inline-block;
+	width: 40px;
+	margin-right: 8px;
+}
 
+.contact-type {
+	display: inline-block;
+}
 
 
 
@@ -283,9 +307,12 @@ main {
  ================ BREAKPOINTS ================
 */
 
-
-
 @media only screen and (max-width: 959px){
+
+	h2 {
+		font: 1.5em $ddc-font;
+		margin-bottom: 0;
+	}
 
 
 	.title {
@@ -302,45 +329,54 @@ main {
 
 
 
-	.nav-expanded {
-
-		ul {
-			font-size: 3.5em;
-
-			li {
-				width: 200px;
-				margin: 0 auto;
-				display: block;
-				border-right: 0px;
-				border-bottom: $line-break;
-				padding: 30px 0;
-
-				&:nth-child(3) {
-					border-bottom: 0px;
-				}
-			}
-		}
-	}
 
 	.project-sidebar {
 		width: 100%;
 		min-height: auto;
-		padding: 30px 30px 60px;
+		padding: 15px;
 		position: fixed;
 		bottom: 0;
 	}
+
+	.project-description {
+		display: block;
+		padding: 10px 0 30px;
+	}
+
+	.nav-back {
+		bottom: 15px;
+		left: 15px;
+	}
+
+	.details-toggle {
+		display: inline-block;
+		cursor: pointer;
+	}
+
 
 	main {
 		padding-left: 0;
 	}
 
 
-	.about {
+
+	.about, .contact {
 		width: 80%;
-		margin: 15% 10% 0 ;
+		margin: 10% 10% 50px; ;
 	}
 
+}
 
 
 
+@media only screen and (max-width: 599px){
+
+	.about, .contact {
+		margin-top: 55px;
+	}
+
+	.contact-item {
+		display: block;
+		margin: 0px 0px 10px;
+	}
 }

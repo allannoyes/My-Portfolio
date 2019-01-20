@@ -1,0 +1,566 @@
+/*
+ ================ SASS IMPORTS ================
+*/
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans:400,700");
+* {
+  box-sizing: border-box; }
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/*------ Noto Sans -------*/
+/*------ DDC Hardware Compressed -------*/
+@font-face {
+  font-family: 'ddc_hardwarecompressed';
+  src: url("ddchardware-compressed-webfont.woff2") format("woff2"), url("ddchardware-compressed-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+/*
+ ================ COLORS ================
+*/
+/*
+ ================ TYPOGRAPHY ================
+*/
+/*
+ ================ LINES ================
+*/
+/*
+* === BACKGROUND IMAGES ===
+*/
+.grid-container {
+  padding-top: 60px;
+  display: grid;
+  grid-gap: 50px;
+  grid-template-rows: repeat(3, [row] auto);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "hero-light hero-dark hero-dark hero-dark" "hero-light hero-dark hero-dark hero-dark" "solomon solomon machine-madness machine-madness" "donaldson-guide mizzou-tennis mizzou-tennis mizzou-tennis" "doula-mama mizzou-tennis mizzou-tennis mizzou-tennis" "scsu-link scsu-link logos apparel" "scsu-link scsu-link mizzou-cc mizzou-cc";
+  align-items: stretch; }
+
+.hero-light {
+  grid-area: hero-light; }
+
+.hero-dark {
+  grid-area: hero-dark; }
+
+.name {
+  width: 60%;
+  margin: 20% auto;
+  grid-column: 1 / 3;
+  grid-row: 1 / 2;
+  place-self: center;
+  z-index: 50; }
+
+.title {
+  grid-column: 3 / 6;
+  grid-row: 1 / 2;
+  align-self: center;
+  color: white;
+  z-index: 51; }
+
+.project {
+  align-self: stretch; }
+
+.solomon {
+  grid-area: solomon;
+  background: url("../img/Solomon-Corp-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.machine-madness {
+  grid-area: machine-madness;
+  background: url("../img/Machine-Madness-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.logos {
+  grid-area: logos;
+  background: url("../img/Logos-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.green-wing {
+  grid-area: green-wing;
+  background: url("../img/Green-Wing-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.apparel {
+  grid-area: apparel;
+  background: url("../img/Apparel-Designs-Thumbnail.jpg") no-repeat center center;
+  background-size: cover; }
+
+.doula-mama {
+  grid-area: doula-mama;
+  background: url("../img/My-Doula-Mama-Thumbnail.jpg") no-repeat center center;
+  background-size: cover; }
+
+.donaldson-guide {
+  grid-area: donaldson-guide;
+  background: url("../img/Donaldson-Guide-Thumbnail.jpg") no-repeat center center;
+  background-size: cover; }
+
+.sheldon {
+  grid-area: sheldon;
+  background: url("../img/Sheldon-Theatre-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.mizzou-tennis {
+  grid-area: mizzou-tennis;
+  background: url("../img/MIZZOU-Tennis-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.mizzou-cc {
+  grid-area: mizzou-cc;
+  background: url("../img/MIZZOU-CC-Thumbnail@2x.jpg") no-repeat center center;
+  background-size: cover; }
+
+.scsu-link {
+  grid-area: scsu-link;
+  background: url("../img/SCSU-The-Link-Thumbnail.jpg") no-repeat center center;
+  background-size: cover; }
+
+/*
+ ================ ABOUT PAGE ================
+*/
+.about-grid-container {
+  padding-top: 50px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "hero-light hero-light hero-light hero-dark" "hero-light hero-light hero-light hero-dark"; }
+  .about-grid-container .name {
+    width: 50%;
+    grid-column: 3 / span 2;
+    grid-row: 1 / span 2;
+    place-self: center;
+    z-index: 50; }
+
+/*
+ ================ CONTACT PAGE ================
+*/
+.contact-grid-container {
+  padding-top: 50px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-areas: "hero-light hero-dark hero-dark hero-dark" "hero-light hero-dark hero-dark hero-dark"; }
+  .contact-grid-container .name {
+    width: 50%;
+    grid-column: 1 / span 2;
+    grid-row: 1 / span 2;
+    place-self: center;
+    z-index: 50; }
+
+/*
+ ================ BREAKPOINTS ================
+*/
+@media only screen and (max-width: 959px) {
+  .grid-container {
+    display: grid;
+    grid-auto-rows: minmax(250px, 300px);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero-light hero-dark" "hero-light hero-dark" "solomon solomon" "machine-madness machine-madness" "donaldson-guide donaldson-guide" "doula-mama doula-mama" "mizzou-tennis mizzou-tennis" "scsu-link scsu-link" "logos logos" "apparel apparel" "mizzou-cc mizzou-cc"; }
+  .name {
+    max-width: 500px;
+    width: 50%;
+    margin: 10% auto;
+    grid-column: 1 / 3;
+    grid-row: 1 / 2;
+    place-self: center;
+    z-index: 50; }
+  .title {
+    grid-area: title;
+    padding: 2%;
+    grid-column: 1 / span 2;
+    grid-row: 2;
+    align-self: center;
+    text-align: center;
+    color: white;
+    background: #a8854a;
+    z-index: 51; }
+  .about-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero-light hero-light" "hero-light hero-light"; }
+  .contact-grid-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero-dark hero-dark" "hero-dark hero-dark"; }
+    .contact-grid-container .name {
+      display: none; } }
+
+@media only screen and (max-width: 599px) {
+  .grid-container {
+    display: grid;
+    grid-template-rows: repeat(3, [row] auto);
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "hero-light hero-dark" "hero-light hero-dark" "solomon solomon" "machine-madness machine-madness" "donaldson-guide donaldson-guide" "doula-mama doula-mama" "mizzou-tennis mizzou-tennis" "scsu-link scsu-link" "logos logos" "apparel apparel" "mizzou-cc mizzou-cc"; }
+  .name {
+    width: 50%;
+    margin: 15% auto; } }
+
+.nav-bar {
+  width: 100%;
+  position: fixed;
+  background: #13313c;
+  box-shadow: 0 2px 7px rgba(0, 0, 0, 0.2);
+  z-index: 50000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
+  .nav-bar ul {
+    padding: 0;
+    margin: 0; }
+    .nav-bar ul li {
+      display: inline-block;
+      border-right: 1px solid #a8854a; }
+      .nav-bar ul li:nth-child(3) {
+        border-right: 0px; }
+    .nav-bar ul a {
+      padding: 5px 20px;
+      line-height: 1;
+      font: 1.4em "ddc_hardwarecompressed", Arial, sans-serif;
+      letter-spacing: .05em;
+      color: white; }
+      .nav-bar ul a:visited {
+        color: white; }
+
+.nav-logo {
+  padding: 10px;
+  font: 34px "ddc_hardwarecompressed", Arial, sans-serif;
+  color: #a8854a;
+  text-decoration: none; }
+  .nav-logo span {
+    color: #e0e0e0; }
+
+.menu-button {
+  display: none;
+  margin-right: 10px; }
+
+/*
+ ================ GENERAL ================
+*/
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h4, h6 {
+  font-family: "ddc_hardwarecompressed", Arial, sans-serif;
+  letter-spacing: .05em; }
+
+h2 {
+  font: 1.5em/0.9em "ddc_hardwarecompressed", Arial, sans-serif;
+  color: #6e8b9a;
+  margin-bottom: 5px; }
+
+h3 {
+  font: 1.3em "ddc_hardwarecompressed", Arial, sans-serif;
+  color: #6e8b9a; }
+
+h4 {
+  font-size: 1em; }
+
+p {
+  color: #13313c;
+  font: 0.9em/1.5em "Noto Sans", sans-serif;
+  margin-bottom: 15px; }
+
+ul {
+  margin-bottom: 15px; }
+
+li {
+  color: #13313c;
+  font: 0.9em/1.5em "Noto Sans", sans-serif;
+  list-style-type: disc; }
+
+/*
+ ================ HOME PAGE ================
+*/
+.title h2 {
+  margin: 0;
+  text-transform: uppercase;
+  font: 2.5em "Noto Sans", sans-serif;
+  color: white; }
+
+.title h3 {
+  font: 1.5em "Noto Sans", sans-serif;
+  color: rgba(255, 255, 255, 0.7); }
+
+.hero-light {
+  background: #e0e0e0; }
+
+.hero-dark {
+  background: #13313c; }
+
+.project {
+  min-height: 270px;
+  width: 100%;
+  display: grid;
+  grid: 1fr / 1fr;
+  grid-template-areas: "overlay"; }
+
+.project-overlay {
+  height: 100%;
+  opacity: 0;
+  padding-left: 30px;
+  background: rgba(19, 49, 60, 0.75);
+  display: flex;
+  align-items: center;
+  grid-area: overlay;
+  transition: opacity 300ms; }
+  .project-overlay .project-info {
+    font-size: 2.5em;
+    color: white; }
+    .project-overlay .project-info p {
+      margin-top: -4px;
+      font: 18px "Noto Sans", sans-serif;
+      color: rgba(255, 255, 255, 0.75); }
+
+.project-overlay:hover {
+  opacity: 1; }
+
+/*
+ ================ PROJECT PAGE ================
+*/
+.project-sidebar {
+  width: 25%;
+  min-height: 100vh;
+  background: #e0e0e0;
+  position: fixed;
+  padding: 0 30px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center; }
+
+.project-description {
+  align-self: center; }
+
+.project-footer {
+  width: 100%;
+  color: #b3b9c2;
+  font: 1.25em "ddc_hardwarecompressed", Arial, sans-serif;
+  letter-spacing: .05em;
+  text-align: right; }
+
+.nav-back {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  color: #b3b9c2; }
+
+.details-toggle {
+  display: none; }
+
+main {
+  padding: 30px 0 0 25%;
+  width: 100%; }
+  main img {
+    width: 100%; }
+  main ul {
+    margin-bottom: 0; }
+    main ul li {
+      line-height: 0;
+      list-style-type: none; }
+
+.inset-image {
+  width: 80%;
+  padding: 20px 0;
+  margin: 0 auto; }
+
+.doula-background {
+  background: #733D99;
+  width: 100%;
+  padding: 50px 10%;
+  background: #733D99; }
+  .doula-background img {
+    box-shadow: 0px 3px 9px rgba(0, 0, 0, 0.26); }
+
+.gray-inset {
+  background: #333333;
+  width: 100%;
+  padding: 30px 10%; }
+  .gray-inset img {
+    width: 100%;
+    margin: 20px auto; }
+
+/*
+ ================ ABOUT PAGE ================
+*/
+.lists {
+  display: flex;
+  align-items: flex-start; }
+
+.two-col-list {
+  margin: 10px 20px 0 0;
+  width: 50%;
+  display: inline-block; }
+
+.about {
+  width: 60%;
+  margin: 15% 10% 0; }
+  .about li {
+    margin-left: 18px; }
+
+/*
+ ================ CONTACT PAGE ================
+*/
+.contact {
+  width: 60%;
+  margin: 10% 30%; }
+  .contact h2 {
+    margin-bottom: 0;
+    font-size: 1.5em;
+    color: #a8854a; }
+  .contact form {
+    padding-top: 30px;
+    width: 100%; }
+    .contact form label, .contact form input, .contact form textarea {
+      display: block;
+      width: 100%; }
+    .contact form label {
+      font: 1.5em "ddc_hardwarecompressed", Arial, sans-serif;
+      color: #a8854a; }
+    .contact form input, .contact form textarea {
+      margin-bottom: 25px;
+      padding: 12px;
+      background: none;
+      border: 2px solid #6e8b9a;
+      color: white;
+      font: 1em/1.5em "Noto Sans", sans-serif; }
+    .contact form textarea {
+      height: 150px; }
+    .contact form button {
+      margin-top: 10px;
+      padding: 12px 30px;
+      color: white;
+      font: 1.5em "ddc_hardwarecompressed", Arial, sans-serif;
+      letter-spacing: .05em;
+      background: #6e8b9a;
+      border: 0px; }
+
+.contact-info {
+  padding-bottom: 10px;
+  border-bottom: 1px solid #a8854a; }
+
+.contact-item {
+  display: inline-block;
+  margin-right: 30px; }
+  .contact-item p {
+    color: white; }
+
+.contact-icon {
+  display: inline-block;
+  width: 40px;
+  margin-right: 8px; }
+
+.contact-type {
+  display: inline-block; }
+
+.wpforms-field-hp {
+  display: none; }
+
+.wpforms-confirmation-container-full {
+  padding-top: 15px; }
+  .wpforms-confirmation-container-full p {
+    font-size: 20px;
+    color: white; }
+
+/*
+ ================ BREAKPOINTS ================
+*/
+@media only screen and (max-width: 959px) {
+  h2 {
+    font: 1.4em "ddc_hardwarecompressed", Arial, sans-serif;
+    margin-bottom: 0; }
+  .title {
+    padding: 15px; }
+    .title h2 {
+      font: 1.75em "Noto Sans", sans-serif; }
+  .project-overlay {
+    opacity: 1;
+    background: linear-gradient(to right, rgba(19, 49, 60, 0.7) 0%, rgba(19, 49, 60, 0.2) 80%); }
+    .project-overlay h4, .project-overlay p {
+      text-shadow: 0px 2px 6px rgba(19, 49, 60, 0.3); }
+  .project-sidebar {
+    width: 100%;
+    min-height: auto;
+    padding: 15px;
+    position: fixed;
+    bottom: 0; }
+  .project-description {
+    padding: 10px 0 30px; }
+  .nav-back {
+    bottom: 15px;
+    left: 15px; }
+  .details-toggle {
+    display: inline-block;
+    cursor: pointer;
+    color: #b3b9c2;
+    font: 20px "ddc_hardwarecompressed", Arial, sans-serif;
+    letter-spacing: .05em;
+    border: 0px;
+    background: none;
+    outline: 0px; }
+  #toggleClass {
+    display: none; }
+  main {
+    padding: 40px 0 50px; }
+  .about, .contact {
+    width: 80%;
+    margin: 10% 10% 50px; }
+  .gray-inset {
+    padding-bottom: 50px; } }
+
+@media only screen and (max-width: 599px) {
+  .title h2 {
+    font-size: 1.4em;
+    line-height: 1.25em; }
+  .title h3 {
+    font-size: 1em;
+    line-height: 1.25em; }
+  .about, .contact {
+    margin-top: 55px; }
+  .contact-item {
+    display: block;
+    margin: 0px 0px 10px; }
+  .grid-container {
+    padding-top: 50px; }
+  .nav-bar ul a {
+    padding: 5px 10px; } }

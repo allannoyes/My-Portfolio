@@ -1,0 +1,485 @@
+/*
+ ================ SASS IMPORTS ================
+*/
+
+@import 'scss/reset';
+@import 'scss/fonts';
+@import 'scss/variables';
+@import 'scss/mixins';
+@import 'scss/grid';
+@import 'scss/navigation';
+
+
+
+
+/*
+ ================ GENERAL ================
+*/
+
+// ::-webkit-scrollbar {
+// display: none;
+// }
+
+a {
+	text-decoration: none;
+}
+
+h1, h2, h3, h4, h4, h6 {
+	font-family: $ddc-font;
+	letter-spacing: .05em;
+}
+
+
+h2 {
+	font: 1.5em/.9em $ddc-font;
+	color: $lightblue;
+	margin-bottom: 5px;
+}
+
+
+
+h3 {
+	font: 1.3em $ddc-font;
+	color: $lightblue;
+}
+
+h4 {
+	font-size: 1em;
+}
+
+p {
+	color: $darkblue;
+	font: $paragraph;
+	margin-bottom: 15px;
+}
+
+ul {
+	margin-bottom: 15px;
+}
+
+li {
+	color: $darkblue;
+	font: $paragraph;
+	list-style-type: disc;
+	// list-style-image: url(img/bullet.png);
+	// list-style-image: url(img/bullet.png);
+}
+
+
+
+
+/*
+ ================ HOME PAGE ================
+*/
+
+.title {
+	h2 {
+		margin: 0;
+		text-transform: uppercase;
+		font: 2.5em $body-font;
+		color: white;
+	}
+
+	h3 {
+		font: 1.5em $body-font;
+		color: rgba(255, 255, 255, .7);
+	}
+}
+
+.hero-light {
+	background: $lightgray;
+}
+
+.hero-dark {
+	background: $darkblue;
+}
+
+.project {
+	min-height: 270px;
+	width: 100%;
+	display: grid;
+	grid: 1fr / 1fr;
+  	grid-template-areas:
+    "overlay";
+
+
+
+}
+
+.project-overlay {
+	height: 100%;
+	opacity: 0;
+	padding-left: 30px;
+	background: rgba($darkblue, .75);
+	display: flex;
+	align-items: center;
+	grid-area: overlay;
+	transition: opacity 300ms;
+
+	.project-info {
+		font-size: 2.5em;
+		color: white;
+
+		p {
+			margin-top: -4px;
+			font: 18px $body-font;
+			color: rgba(255, 255, 255, .75);
+		}
+	}
+}
+
+.project-overlay:hover {
+	opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+/*
+ ================ PROJECT PAGE ================
+*/
+
+.project-sidebar {
+	width: 25%;
+	min-height: 100vh;
+	background: $lightgray;
+	position: fixed;
+	padding: 0 30px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.project-description{
+	align-self: center;
+}
+
+.project-footer {
+	width: 100%;
+	color: $gray;
+	font: 1.25em $ddc-font;
+	letter-spacing: .05em;
+	text-align: right;
+}
+
+.nav-back {
+	position: absolute;
+	bottom: 30px;
+	left: 30px;
+	color: $gray;
+}
+
+.details-toggle {
+	display: none;
+}
+
+
+main {
+	padding: 30px 0 0 25%;
+	width: 100%;
+
+	img {
+		width: 100%;
+	}
+
+	ul {
+		margin-bottom: 0;
+
+
+		li {
+			line-height: 0;
+			list-style-type: none;
+		}
+
+	}
+}
+
+.inset-image {
+	width: 80%;
+	padding: 20px 0;
+	margin: 0 auto;
+}
+
+.doula-background {
+	background: #733D99;
+	width: 100%;
+	padding: 50px 10%;
+	background: #733D99;
+
+	img {
+		box-shadow: 0px 3px 9px rgba(0, 0, 0, .26);
+	}
+}
+
+.gray-inset {
+	background: #333333;
+	width: 100%;
+	padding: 30px 10%;
+
+	img {
+		width: 100%;
+		margin: 20px auto;
+	}
+}
+
+
+
+
+/*
+ ================ ABOUT PAGE ================
+*/
+
+.lists {
+	display: flex;
+	align-items: flex-start;
+}
+
+.two-col-list {
+	margin: 10px 20px 0 0;
+	width: 50%;
+	display: inline-block;
+}
+
+.about {
+	width: 60%;
+	margin: 15% 10% 0;
+
+	li {
+		margin-left: 18px;
+	}
+
+}
+
+
+
+
+
+/*
+ ================ CONTACT PAGE ================
+*/
+
+.contact {
+	width: 60%;
+	margin: 10% 30%;
+
+	h2 {
+		margin-bottom: 0;
+		font-size: 1.5em;
+		color: $gold;
+	}
+
+	form {
+		padding-top: 30px;
+		width: 100%;
+
+		label, input, textarea {
+			display: block;
+			width: 100%;
+		}
+
+		label {
+			font: 1.5em $ddc-font;
+			color: $gold;
+		}
+
+		input, textarea {
+			margin-bottom: 25px;
+			padding: 12px;
+			background: none;
+			border: 2px solid $lightblue;
+			color: white;
+			font: 1em/1.5em $body-font;
+		}
+
+		textarea {
+			height: 150px;
+		}
+
+
+		button {
+			margin-top: 10px;
+			padding: 12px 30px;
+			color: white;
+			font: 1.5em $ddc-font;
+			letter-spacing: .05em;
+			background: $lightblue;
+			border: 0px;
+
+		}
+	}
+}
+
+.contact-info {
+	padding-bottom: 10px;
+	// margin-bottom: 15px;
+	border-bottom: $line-break;
+}
+
+
+.contact-item {
+	display: inline-block;
+	margin-right: 30px;
+
+	p {
+		color: white;
+	}
+}
+
+.contact-icon {
+	display: inline-block;
+	width: 40px;
+	margin-right: 8px;
+}
+
+.contact-type {
+	display: inline-block;
+}
+
+.wpforms-field-hp {
+	display: none;
+}
+
+.wpforms-confirmation-container-full {
+	padding-top: 15px;
+
+	p {
+		font-size: 20px;
+		color: white;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ ================ BREAKPOINTS ================
+*/
+
+@media only screen and (max-width: 959px){
+
+	h2 {
+		font: 1.4em $ddc-font;
+		margin-bottom: 0;
+	}
+
+	.title {
+		padding: 15px;
+		h2 {
+			font: 1.75em $body-font;
+		}
+	}
+
+
+	.project-overlay {
+		opacity: 1;
+		background: linear-gradient(to right, rgba($darkblue, .7) 0%, rgba($darkblue, .2) 80%);
+
+
+		h4, p {
+			text-shadow: 0px 2px 6px rgba($darkblue, .3);
+		}
+	}
+
+
+	.project-sidebar {
+		width: 100%;
+		min-height: auto;
+		padding: 15px;
+		position: fixed;
+		bottom: 0;
+	}
+
+
+	.project-description {
+		padding: 10px 0 30px;
+	}
+
+	.nav-back {
+		bottom: 15px;
+		left: 15px;
+	}
+
+	.details-toggle {
+		display: inline-block;
+		cursor: pointer;
+		color: $gray;
+		font: 20px $ddc-font;
+		letter-spacing: .05em;
+		border: 0px;
+		background: none;
+		outline: 0px;;
+	}
+
+	#toggleClass {
+		display: none;
+	}
+
+	main {
+		padding: 40px 0 50px;
+	}
+
+	.about, .contact {
+		width: 80%;
+		margin: 10% 10% 50px; ;
+	}
+
+	.gray-inset {
+
+		padding-bottom: 50px;
+	}
+}
+
+
+
+
+
+
+@media only screen and (max-width: 599px){
+
+	.title {
+		h2 {
+			font-size: 1.4em;
+			line-height: 1.25em
+		}
+		h3 {
+			font-size: 1em;
+			line-height: 1.25em
+		}
+	}
+
+	.about, .contact {
+		margin-top: 55px;
+	}
+
+	.contact-item {
+		display: block;
+		margin: 0px 0px 10px;
+	}
+
+	.grid-container {
+		padding-top: 50px;
+	}
+
+	.nav-bar {
+		ul {
+
+			a {
+				padding: 5px 10px;
+			}
+		}
+	}
+}

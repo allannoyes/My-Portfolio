@@ -1,0 +1,26 @@
+/*
+ ================ COLORS ================
+*/
+$white: rgb(255, 255, 255);
+$lightblue: rgb(110, 139, 154);
+$darkblue: rgb(19, 49, 60);
+$lightgray: rgb(224, 224, 224);
+$gray: rgb(179, 185, 194);
+$darkgray: rgb(113, 122, 119);
+$gold: rgb(168, 133, 74);
+
+
+/*
+ ================ TYPOGRAPHY ================
+*/
+
+$body-font: 'Noto Sans', sans-serif;
+$ddc-font: 'ddc_hardwarecompressed', Arial, sans-serif;
+$paragraph: .9em/1.5em $body-font;
+
+
+/*
+ ================ LINES ================
+*/
+
+$line-break: 1px solid $gold;

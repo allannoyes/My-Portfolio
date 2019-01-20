@@ -1,0 +1,5807 @@
+{
+"AAInfo": "This is a CodeKit 3 project config file. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. Doing so will cause CodeKit to crash and/or corrupt your project. I know it looks like JSON, but it is *not*. Many numbers in this file are 64-bit long long bitFlags, which JSON does not support. These numbers *cannot* be treated as discrete values and if you attempt to parse this file as standard JSON with any public JSON parser, these values will be corrupted. This file is not backwards-compatible with CodeKit 1 or 2. For more information, see https://codekitapp.com/",
+"buildSteps": [
+	{
+		"name": "Process All Remaining Files and Folders",
+		"stepType": 1,
+		"uuidString": "15492C3A-CBE5-415E-B419-24625AB6224D"
+		}
+	],
+"creatorBuild": "28905",
+"files": {
+	"/about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/about.php",
+		"oF": 0
+		},
+	"/build/.gitignore": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/.gitignore",
+		"oF": 0
+		},
+	"/build/about.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/about.php",
+		"oF": 0
+		},
+	"/build/android-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 2170,
+		"oA": 0,
+		"oAP": "/build/android-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/android-icon-192x192.png": {
+		"ft": 32768,
+		"iS": 2716,
+		"oA": 0,
+		"oAP": "/build/android-icon-192x192.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/android-icon-36x36.png": {
+		"ft": 32768,
+		"iS": 1094,
+		"oA": 0,
+		"oAP": "/build/android-icon-36x36.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/android-icon-48x48.png": {
+		"ft": 32768,
+		"iS": 1227,
+		"oA": 0,
+		"oAP": "/build/android-icon-48x48.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/android-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 1531,
+		"oA": 0,
+		"oAP": "/build/android-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/android-icon-96x96.png": {
+		"ft": 32768,
+		"iS": 1751,
+		"oA": 0,
+		"oAP": "/build/android-icon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-114x114.png": {
+		"ft": 32768,
+		"iS": 1691,
+		"oA": 0,
+		"oAP": "/build/apple-icon-114x114.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-120x120.png": {
+		"ft": 32768,
+		"iS": 1750,
+		"oA": 0,
+		"oAP": "/build/apple-icon-120x120.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 2170,
+		"oA": 0,
+		"oAP": "/build/apple-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-152x152.png": {
+		"ft": 32768,
+		"iS": 2377,
+		"oA": 0,
+		"oAP": "/build/apple-icon-152x152.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-180x180.png": {
+		"ft": 32768,
+		"iS": 2970,
+		"oA": 0,
+		"oAP": "/build/apple-icon-180x180.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-57x57.png": {
+		"ft": 32768,
+		"iS": 1347,
+		"oA": 0,
+		"oAP": "/build/apple-icon-57x57.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-60x60.png": {
+		"ft": 32768,
+		"iS": 1341,
+		"oA": 0,
+		"oAP": "/build/apple-icon-60x60.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-72x72.png": {
+		"ft": 32768,
+		"iS": 1531,
+		"oA": 0,
+		"oAP": "/build/apple-icon-72x72.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-76x76.png": {
+		"ft": 32768,
+		"iS": 1543,
+		"oA": 0,
+		"oAP": "/build/apple-icon-76x76.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon-precomposed.png": {
+		"ft": 32768,
+		"iS": 2716,
+		"oA": 0,
+		"oAP": "/build/apple-icon-precomposed.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/apple-icon.png": {
+		"ft": 32768,
+		"iS": 2716,
+		"oA": 0,
+		"oAP": "/build/apple-icon.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/browserconfig.xml": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/browserconfig.xml",
+		"oF": 0
+		},
+	"/build/contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/contact.php",
+		"oF": 0
+		},
+	"/build/favicon-16x16.png": {
+		"ft": 32768,
+		"iS": 684,
+		"oA": 0,
+		"oAP": "/build/favicon-16x16.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/favicon-32x32.png": {
+		"ft": 32768,
+		"iS": 939,
+		"oA": 0,
+		"oAP": "/build/favicon-32x32.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/favicon-96x96.png": {
+		"ft": 32768,
+		"iS": 1751,
+		"oA": 0,
+		"oAP": "/build/favicon-96x96.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/favicon.ico",
+		"oF": 0
+		},
+	"/build/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/footer.php",
+		"oF": 0
+		},
+	"/build/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/functions.php",
+		"oF": 0
+		},
+	"/build/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/header.php",
+		"oF": 0
+		},
+	"/build/img/_Apparel-Designs-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 314718,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/build/img/_Apparel-Designs-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/_Donaldson-Guide-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 491490,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/build/img/_Donaldson-Guide-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/AllanNoyes.png": {
+		"ft": 32768,
+		"iS": 13304,
+		"oA": 0,
+		"oAP": "/build/img/AllanNoyes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/img/AllanNoyes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/AllanNoyes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/Apparel-Designs-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 112046,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Apparel-Designs-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/bullet.png": {
+		"ft": 32768,
+		"iS": 198,
+		"oA": 0,
+		"oAP": "/build/img/bullet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Contamination Codes.jpg": {
+		"ft": 16384,
+		"iS": 262781,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Contamination Codes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Contamination Codes@2x.jpg": {
+		"ft": 16384,
+		"iS": 666314,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Contamination Codes@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Header.jpg": {
+		"ft": 16384,
+		"iS": 490954,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Header@2x.jpg": {
+		"ft": 16384,
+		"iS": 1571425,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Header@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes.jpg": {
+		"ft": 16384,
+		"iS": 124033,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes@2x.jpg": {
+		"ft": 16384,
+		"iS": 255916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Spread-1.jpg": {
+		"ft": 16384,
+		"iS": 588088,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Spread-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Spread-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 1844993,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Spread-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Spread-2.jpg": {
+		"ft": 16384,
+		"iS": 592610,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Spread-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson Guide/Donaldson-Guide-Spread-2@2x.jpg": {
+		"ft": 16384,
+		"iS": 1884878,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson Guide/Donaldson-Guide-Spread-2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Donaldson-Guide-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 1571425,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Donaldson-Guide-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Email-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/Email-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/Green-Wing-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 53570,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Green-Wing-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Green-Wing-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 114560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Green-Wing-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 23315,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 55727,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/47-Strings-Logo.jpg": {
+		"ft": 16384,
+		"iS": 40798,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/47-Strings-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/47-Strings-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 78710,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/47-Strings-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/File-Viewer-Plus-3-Logo.jpg": {
+		"ft": 16384,
+		"iS": 55467,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/File-Viewer-Plus-3-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/File-Viewer-Plus-3-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 99415,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/File-Viewer-Plus-3-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/FMS-Insurance-Logo.jpg": {
+		"ft": 16384,
+		"iS": 30885,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/FMS-Insurance-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/FMS-Insurance-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 58002,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/FMS-Insurance-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Green-Wing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 73372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Green-Wing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Green-Wing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 138372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Green-Wing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Handyman-Printing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 67317,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Handyman-Printing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Handyman-Printing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 134154,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Handyman-Printing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/HellCat-Logo.jpg": {
+		"ft": 16384,
+		"iS": 39603,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/HellCat-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/HellCat-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 80788,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/HellCat-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Lindahl-Lumberworks-Logo.jpg": {
+		"ft": 16384,
+		"iS": 42643,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Lindahl-Lumberworks-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Lindahl-Lumberworks-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 80403,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Lindahl-Lumberworks-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/NoYes-Printing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 54388,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/NoYes-Printing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/NoYes-Printing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 102535,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/NoYes-Printing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Superu-Logo.jpg": {
+		"ft": 16384,
+		"iS": 44054,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Superu-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Superu-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 87895,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Superu-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Wingin-University-Logo.jpg": {
+		"ft": 16384,
+		"iS": 89154,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Wingin-University-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Logos/Wingin-University-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 191852,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Logos/Wingin-University-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Machine-Madness-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 188957,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Machine-Madness-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Machine-Madness-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 474037,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Machine-Madness-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Desktop.jpg": {
+		"ft": 16384,
+		"iS": 579628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Desktop@2x.jpg": {
+		"ft": 16384,
+		"iS": 1713021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Desktop@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Images.jpg": {
+		"ft": 16384,
+		"iS": 1787628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Images.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Images@2x.jpg": {
+		"ft": 16384,
+		"iS": 5031558,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Images@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Mobile.jpg": {
+		"ft": 16384,
+		"iS": 250565,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/CLAAS-FB-Mobile@2x.jpg": {
+		"ft": 16384,
+		"iS": 775828,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/CLAAS-FB-Mobile@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/MachineMadness.jpg": {
+		"ft": 16384,
+		"iS": 58216,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/MachineMadness.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/MachineMadness@2x.jpg": {
+		"ft": 16384,
+		"iS": 135603,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/MachineMadness@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/Team Hay.jpg": {
+		"ft": 16384,
+		"iS": 74470,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/Team Hay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/Team Hay@2x.jpg": {
+		"ft": 16384,
+		"iS": 184583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/Team Hay@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamHay.jpg": {
+		"ft": 16384,
+		"iS": 73292,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamHay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamHay@2x.jpg": {
+		"ft": 16384,
+		"iS": 183382,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamHay@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamJaguar.jpg": {
+		"ft": 16384,
+		"iS": 126639,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamJaguar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamJaguar@2x.jpg": {
+		"ft": 16384,
+		"iS": 328790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamJaguar@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamLexion.jpg": {
+		"ft": 16384,
+		"iS": 116587,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamLexion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamLexion@2x.jpg": {
+		"ft": 16384,
+		"iS": 287305,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamLexion@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamXerion.jpg": {
+		"ft": 16384,
+		"iS": 99765,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamXerion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MachineMadness/TeamXerion@2x.jpg": {
+		"ft": 16384,
+		"iS": 242969,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MachineMadness/TeamXerion@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Detail.jpg": {
+		"ft": 16384,
+		"iS": 553011,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Detail@2x.jpg": {
+		"ft": 16384,
+		"iS": 1546758,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Detail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Men-Poster.jpg": {
+		"ft": 16384,
+		"iS": 429763,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Men-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Men-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 1359081,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Men-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Renderings.jpg": {
+		"ft": 16384,
+		"iS": 690813,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Renderings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Renderings@2x.jpg": {
+		"ft": 16384,
+		"iS": 2283952,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Renderings@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Women-Poster.jpg": {
+		"ft": 16384,
+		"iS": 421462,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Women-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU CC/MIZZOU-CC-Women-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 1334983,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU CC/MIZZOU-CC-Women-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail.jpg": {
+		"ft": 16384,
+		"iS": 582689,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail@2x.jpg": {
+		"ft": 16384,
+		"iS": 1819968,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster.jpg": {
+		"ft": 16384,
+		"iS": 295253,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 791340,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings.jpg": {
+		"ft": 16384,
+		"iS": 547587,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings@2x.jpg": {
+		"ft": 16384,
+		"iS": 1816680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU-CC-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 243176,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU-CC-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU-CC-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 772834,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU-CC-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU-Tennis-Poster-Detail.jpg": {
+		"ft": 16384,
+		"iS": 159828,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU-Tennis-Poster-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU-Tennis-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 161364,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU-Tennis-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/MIZZOU-Tennis-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 426164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/MIZZOU-Tennis-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Desktop.jpg": {
+		"ft": 16384,
+		"iS": 134680,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Desktop@2x.jpg": {
+		"ft": 16384,
+		"iS": 443023,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Desktop@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Homepage.jpg": {
+		"ft": 16384,
+		"iS": 581048,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Homepage@2x.jpg": {
+		"ft": 16384,
+		"iS": 1685793,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Homepage@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Hompage.jpg": {
+		"ft": 16384,
+		"iS": 362446,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Hompage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Hompage@2x.jpg": {
+		"ft": 16384,
+		"iS": 1003615,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Hompage@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Mobile.jpg": {
+		"ft": 16384,
+		"iS": 94342,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My Doula Mama/Doula-Mama-Mobile@2x.jpg": {
+		"ft": 16384,
+		"iS": 273756,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My Doula Mama/Doula-Mama-Mobile@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/My-Doula-Mama-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 201045,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/My-Doula-Mama-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Nav-Button.png": {
+		"ft": 32768,
+		"iS": 299,
+		"oA": 0,
+		"oAP": "/build/img/Nav-Button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/img/Nav-Button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/Nav-Button.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/Noyes Printing/Jandt-Jamboree-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 759210,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Jandt-Jamboree-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Jandt-Jamboree-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 2305508,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Jandt-Jamboree-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Ragnar-River-Run-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 418332,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Ragnar-River-Run-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Ragnar-River-Run-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 1165539,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Ragnar-River-Run-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/RWHS-Volleyball-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 704098,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/RWHS-Volleyball-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/RWHS-Volleyball-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 1979005,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/RWHS-Volleyball-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Underground-Fitness-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 624867,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Underground-Fitness-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Underground-Fitness-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 1845913,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Underground-Fitness-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Winger-Lacrosse-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 723642,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Winger-Lacrosse-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Noyes Printing/Winger-Lacrosse-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 2280142,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Noyes Printing/Winger-Lacrosse-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Phone-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/build/img/Phone-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/build/img/Rectangle 2.jpg": {
+		"ft": 16384,
+		"iS": 4890,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Rectangle 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Rectangle 2@2x.jpg": {
+		"ft": 16384,
+		"iS": 12106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Rectangle 2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/SCSU-The-Link-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 170892,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/SCSU-The-Link-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/SCSU-The-Link-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 470534,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/SCSU-The-Link-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Sheldon-Theatre-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 137062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Sheldon-Theatre-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Sheldon-Theatre-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 354654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Sheldon-Theatre-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon Ads.jpg": {
+		"ft": 16384,
+		"iS": 1078790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon Ads.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon Ads@2x.jpg": {
+		"ft": 16384,
+		"iS": 3986947,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon Ads@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-1.jpg": {
+		"ft": 16384,
+		"iS": 330437,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 968482,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-2.jpg": {
+		"ft": 16384,
+		"iS": 317372,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-2@2x.jpg": {
+		"ft": 16384,
+		"iS": 905633,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-3.jpg": {
+		"ft": 16384,
+		"iS": 304841,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-3@2x.jpg": {
+		"ft": 16384,
+		"iS": 891675,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-3@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-4.jpg": {
+		"ft": 16384,
+		"iS": 381618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Ad-4@2x.jpg": {
+		"ft": 16384,
+		"iS": 1153582,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Ad-4@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Header-Image.jpg": {
+		"ft": 16384,
+		"iS": 726120,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Header-Image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon Corporation/Solomon-Header-Image@2x.jpg": {
+		"ft": 16384,
+		"iS": 2824401,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon Corporation/Solomon-Header-Image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon-Corp-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 174134,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon-Corp-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/Solomon-Corp-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 669744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/Solomon-Corp-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The Link/Cover_and_Monthly.jpg": {
+		"ft": 16384,
+		"iS": 1028408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The Link/Cover_and_Monthly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The Link/Link_Weekly.jpg": {
+		"ft": 16384,
+		"iS": 475509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The Link/Link_Weekly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The Link/SCSU-The-Link-Header.jpg": {
+		"ft": 16384,
+		"iS": 163504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The Link/SCSU-The-Link-Header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The Link/SCSU-The-Link-Header@2x.jpg": {
+		"ft": 16384,
+		"iS": 459672,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The Link/SCSU-The-Link-Header@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The Link/Social-Media.jpg": {
+		"ft": 16384,
+		"iS": 533754,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The Link/Social-Media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The-Link-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 383119,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The-Link-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/img/The-Link-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 1031726,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/build/img/The-Link-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/build/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/index.php",
+		"oF": 0
+		},
+	"/build/js/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/build/js/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/build/ms-icon-144x144.png": {
+		"ft": 32768,
+		"iS": 2170,
+		"oA": 0,
+		"oAP": "/build/ms-icon-144x144.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/ms-icon-150x150.png": {
+		"ft": 32768,
+		"iS": 2395,
+		"oA": 0,
+		"oAP": "/build/ms-icon-150x150.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/ms-icon-310x310.png": {
+		"ft": 32768,
+		"iS": 6449,
+		"oA": 0,
+		"oAP": "/build/ms-icon-310x310.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/ms-icon-70x70.png": {
+		"ft": 32768,
+		"iS": 1494,
+		"oA": 0,
+		"oAP": "/build/ms-icon-70x70.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/build/project-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/project-page.php",
+		"oF": 0
+		},
+	"/build/project.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/project.php",
+		"oF": 0
+		},
+	"/build/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/sidebar.php",
+		"oF": 0
+		},
+	"/build/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/single.php",
+		"oF": 0
+		},
+	"/build/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/build/style/ddchardware-compressed-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/style/ddchardware-compressed-webfont.woff",
+		"oF": 0
+		},
+	"/build/style/ddchardware-compressed-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/build/style/ddchardware-compressed-webfont.woff2",
+		"oF": 0
+		},
+	"/build/style/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/build/style/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/contact.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/contact.php",
+		"oF": 0
+		},
+	"/favicon.ico": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/favicon.ico",
+		"oF": 0
+		},
+	"/footer.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/footer.php",
+		"oF": 0
+		},
+	"/functions.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/functions.php",
+		"oF": 0
+		},
+	"/header.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/header.php",
+		"oF": 0
+		},
+	"/img/_Apparel-Designs-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 314718,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/_Apparel-Designs-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/_Donaldson-Guide-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 521629,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/_Donaldson-Guide-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/AllanNoyes.png": {
+		"ft": 32768,
+		"iS": 37733,
+		"oA": 0,
+		"oAP": "/img/AllanNoyes.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/AllanNoyes.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/AllanNoyes.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/Apparel-Designs-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 113053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Apparel-Designs-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/bullet.png": {
+		"ft": 32768,
+		"iS": 198,
+		"oA": 0,
+		"oAP": "/img/bullet.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Contamination Codes.jpg": {
+		"ft": 16384,
+		"iS": 288902,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Contamination Codes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Contamination Codes@2x.jpg": {
+		"ft": 16384,
+		"iS": 666314,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Contamination Codes@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Header.jpg": {
+		"ft": 16384,
+		"iS": 521629,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Header@2x.jpg": {
+		"ft": 16384,
+		"iS": 1526990,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Header@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes.jpg": {
+		"ft": 16384,
+		"iS": 139052,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes@2x.jpg": {
+		"ft": 16384,
+		"iS": 255916,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Micron-Sizes@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Spread-1.jpg": {
+		"ft": 16384,
+		"iS": 609621,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Spread-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Spread-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 1844993,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Spread-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Spread-2.jpg": {
+		"ft": 16384,
+		"iS": 615422,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Spread-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson Guide/Donaldson-Guide-Spread-2@2x.jpg": {
+		"ft": 16384,
+		"iS": 1884878,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson Guide/Donaldson-Guide-Spread-2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Donaldson-Guide-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 1571425,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Donaldson-Guide-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Email-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/Email-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/Green-Wing-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 53570,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Green-Wing-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Green-Wing-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 114560,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Green-Wing-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 26618,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 65830,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/47-Strings-Logo.jpg": {
+		"ft": 16384,
+		"iS": 50318,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/47-Strings-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/47-Strings-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 139213,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/47-Strings-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/File-Viewer-Plus-3-Logo.jpg": {
+		"ft": 16384,
+		"iS": 67101,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/File-Viewer-Plus-3-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/File-Viewer-Plus-3-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 166731,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/File-Viewer-Plus-3-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/FMS-Insurance-Logo.jpg": {
+		"ft": 16384,
+		"iS": 43326,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/FMS-Insurance-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/FMS-Insurance-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 120395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/FMS-Insurance-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Green-Wing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 83088,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Green-Wing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Green-Wing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 206460,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Green-Wing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Handyman-Printing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 79927,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Handyman-Printing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Handyman-Printing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 205652,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Handyman-Printing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/HellCat-Logo.jpg": {
+		"ft": 16384,
+		"iS": 48239,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/HellCat-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/HellCat-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 140415,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/HellCat-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Lindahl-Lumberworks-Logo.jpg": {
+		"ft": 16384,
+		"iS": 56824,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Lindahl-Lumberworks-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Lindahl-Lumberworks-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 148124,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Lindahl-Lumberworks-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/NoYes-Printing-Logo.jpg": {
+		"ft": 16384,
+		"iS": 65937,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/NoYes-Printing-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/NoYes-Printing-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 168978,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/NoYes-Printing-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Superu-Logo.jpg": {
+		"ft": 16384,
+		"iS": 54284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Superu-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Superu-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 150278,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Superu-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Wingin-University-Logo.jpg": {
+		"ft": 16384,
+		"iS": 99234,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Wingin-University-Logo.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Logos/Wingin-University-Logo@2x.jpg": {
+		"ft": 16384,
+		"iS": 265163,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Logos/Wingin-University-Logo@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Machine-Madness-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 199879,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Machine-Madness-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Machine-Madness-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 510996,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Machine-Madness-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Desktop.jpg": {
+		"ft": 16384,
+		"iS": 579628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Desktop@2x.jpg": {
+		"ft": 16384,
+		"iS": 1713021,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Desktop@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Images.jpg": {
+		"ft": 16384,
+		"iS": 1787628,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Images.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Images@2x.jpg": {
+		"ft": 16384,
+		"iS": 5031558,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Images@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Mobile.jpg": {
+		"ft": 16384,
+		"iS": 250565,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/CLAAS-FB-Mobile@2x.jpg": {
+		"ft": 16384,
+		"iS": 775828,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/CLAAS-FB-Mobile@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/MachineMadness.jpg": {
+		"ft": 16384,
+		"iS": 61073,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/MachineMadness.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/MachineMadness@2x.jpg": {
+		"ft": 16384,
+		"iS": 148418,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/MachineMadness@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/Team Hay.jpg": {
+		"ft": 16384,
+		"iS": 77395,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/Team Hay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/Team Hay@2x.jpg": {
+		"ft": 16384,
+		"iS": 199782,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/Team Hay@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamHay.jpg": {
+		"ft": 16384,
+		"iS": 76407,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamHay.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamHay@2x.jpg": {
+		"ft": 16384,
+		"iS": 200063,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamHay@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamJaguar.jpg": {
+		"ft": 16384,
+		"iS": 130857,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamJaguar.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamJaguar@2x.jpg": {
+		"ft": 16384,
+		"iS": 352808,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamJaguar@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamLexion.jpg": {
+		"ft": 16384,
+		"iS": 121261,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamLexion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamLexion@2x.jpg": {
+		"ft": 16384,
+		"iS": 308053,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamLexion@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamXerion.jpg": {
+		"ft": 16384,
+		"iS": 104759,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamXerion.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MachineMadness/TeamXerion@2x.jpg": {
+		"ft": 16384,
+		"iS": 262794,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MachineMadness/TeamXerion@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Detail.jpg": {
+		"ft": 16384,
+		"iS": 602557,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Detail@2x.jpg": {
+		"ft": 16384,
+		"iS": 1710576,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Detail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Men-Poster.jpg": {
+		"ft": 16384,
+		"iS": 477933,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Men-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Men-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 1501322,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Men-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Renderings.jpg": {
+		"ft": 16384,
+		"iS": 754963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Renderings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Renderings@2x.jpg": {
+		"ft": 16384,
+		"iS": 2462335,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Renderings@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Women-Poster.jpg": {
+		"ft": 16384,
+		"iS": 468650,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Women-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU CC/MIZZOU-CC-Women-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 1476707,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU CC/MIZZOU-CC-Women-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail.jpg": {
+		"ft": 16384,
+		"iS": 625483,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail@2x.jpg": {
+		"ft": 16384,
+		"iS": 2010636,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Poster-Detail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Poster.jpg": {
+		"ft": 16384,
+		"iS": 309201,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Poster.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Poster@2x.jpg": {
+		"ft": 16384,
+		"iS": 909097,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Poster@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings.jpg": {
+		"ft": 16384,
+		"iS": 574059,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings@2x.jpg": {
+		"ft": 16384,
+		"iS": 1995648,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU Tennis/MIZZOU-Tennis-Renderings@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU-CC-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 256544,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU-CC-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU-CC-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 802016,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU-CC-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU-Tennis-Poster-Detail.jpg": {
+		"ft": 16384,
+		"iS": 1537289,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU-Tennis-Poster-Detail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU-Tennis-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 161364,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU-Tennis-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/MIZZOU-Tennis-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 426164,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/MIZZOU-Tennis-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Desktop.jpg": {
+		"ft": 16384,
+		"iS": 139799,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Desktop.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Desktop@2x.jpg": {
+		"ft": 16384,
+		"iS": 478458,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Desktop@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Homepage.jpg": {
+		"ft": 16384,
+		"iS": 666952,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Homepage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Homepage@2x.jpg": {
+		"ft": 16384,
+		"iS": 1801056,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Homepage@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Hompage.jpg": {
+		"ft": 16384,
+		"iS": 406250,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Hompage.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Hompage@2x.jpg": {
+		"ft": 16384,
+		"iS": 0,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Hompage@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Mobile.jpg": {
+		"ft": 16384,
+		"iS": 120128,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Mobile.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My Doula Mama/Doula-Mama-Mobile@2x.jpg": {
+		"ft": 16384,
+		"iS": 347462,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My Doula Mama/Doula-Mama-Mobile@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/My-Doula-Mama-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 106686,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/My-Doula-Mama-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Nav-Button.png": {
+		"ft": 32768,
+		"iS": 387,
+		"oA": 0,
+		"oAP": "/img/Nav-Button.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"/img/Nav-Button.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/Nav-Button.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/Noyes Printing/Jandt-Jamboree-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 802570,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Jandt-Jamboree-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Jandt-Jamboree-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 2430836,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Jandt-Jamboree-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Ragnar-River-Run-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 445733,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Ragnar-River-Run-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Ragnar-River-Run-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 1261089,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Ragnar-River-Run-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/RWHS-Volleyball-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 746261,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/RWHS-Volleyball-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/RWHS-Volleyball-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 2098871,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/RWHS-Volleyball-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Underground-Fitness-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 670284,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Underground-Fitness-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Underground-Fitness-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 1942850,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Underground-Fitness-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Winger-Lacrosse-Mockup.jpg": {
+		"ft": 16384,
+		"iS": 761737,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Winger-Lacrosse-Mockup.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Noyes Printing/Winger-Lacrosse-Mockup@2x.jpg": {
+		"ft": 16384,
+		"iS": 2423839,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Noyes Printing/Winger-Lacrosse-Mockup@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Phone-Icon.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "/img/Phone-Icon.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"/img/Rectangle 2.jpg": {
+		"ft": 16384,
+		"iS": 4890,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Rectangle 2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Rectangle 2@2x.jpg": {
+		"ft": 16384,
+		"iS": 12106,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Rectangle 2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/SCSU-The-Link-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 170963,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/SCSU-The-Link-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/SCSU-The-Link-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 493832,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/SCSU-The-Link-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Sheldon-Theatre-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 137062,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Sheldon-Theatre-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Sheldon-Theatre-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 354654,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Sheldon-Theatre-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/.Solomon-Ad-3@2x~imageoptim.jpg": {
+		"ft": 16384,
+		"iS": 891675,
+		"jF": 0,
+		"oA": 1,
+		"oAP": "/img/Solomon Corporation/.Solomon-Ad-3@2x~imageoptim.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon Ads.jpg": {
+		"ft": 16384,
+		"iS": 1182049,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon Ads.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon Ads@2x.jpg": {
+		"ft": 16384,
+		"iS": 4201471,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon Ads@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-1.jpg": {
+		"ft": 16384,
+		"iS": 204583,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-1.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-1@2x.jpg": {
+		"ft": 16384,
+		"iS": 668699,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-1@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-2.jpg": {
+		"ft": 16384,
+		"iS": 192392,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-2.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-2@2x.jpg": {
+		"ft": 16384,
+		"iS": 617679,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-2@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-3.jpg": {
+		"ft": 16384,
+		"iS": 184925,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-3.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-3@2x.jpg": {
+		"ft": 16384,
+		"iS": 508369,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-3@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-4.jpg": {
+		"ft": 16384,
+		"iS": 260737,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-4.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Ad-4@2x.jpg": {
+		"ft": 16384,
+		"iS": 816241,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Ad-4@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Header-Image.jpg": {
+		"ft": 16384,
+		"iS": 767627,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Header-Image.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon Corporation/Solomon-Header-Image@2x.jpg": {
+		"ft": 16384,
+		"iS": 3072832,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon Corporation/Solomon-Header-Image@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon-Corp-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 174134,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon-Corp-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/Solomon-Corp-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 669744,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/Solomon-Corp-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The Link/Cover_and_Monthly.jpg": {
+		"ft": 16384,
+		"iS": 1028408,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The Link/Cover_and_Monthly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The Link/Link_Weekly.jpg": {
+		"ft": 16384,
+		"iS": 475509,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The Link/Link_Weekly.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The Link/SCSU-The-Link-Header.jpg": {
+		"ft": 16384,
+		"iS": 163504,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The Link/SCSU-The-Link-Header.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The Link/SCSU-The-Link-Header@2x.jpg": {
+		"ft": 16384,
+		"iS": 459672,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The Link/SCSU-The-Link-Header@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The Link/Social-Media.jpg": {
+		"ft": 16384,
+		"iS": 533754,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The Link/Social-Media.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The-Link-Thumbnail.jpg": {
+		"ft": 16384,
+		"iS": 404120,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The-Link-Thumbnail.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/img/The-Link-Thumbnail@2x.jpg": {
+		"ft": 16384,
+		"iS": 1115599,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/img/The-Link-Thumbnail@2x.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 1,
+		"q": 100
+		},
+	"/index.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/index.php",
+		"oF": 0
+		},
+	"/js/script-min.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/js/script-min-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/js/script.js": {
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "/js/script-min.js",
+		"oF": 0,
+		"sC": 3,
+		"tS": 0
+		},
+	"/project-page.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/project-page.php",
+		"oF": 0
+		},
+	"/project.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/project.php",
+		"oF": 0
+		},
+	"/sidebar.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/sidebar.php",
+		"oF": 0
+		},
+	"/single.php": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/single.php",
+		"oF": 0
+		},
+	"/style-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style-min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/ddchardware-compressed-webfont.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/style/ddchardware-compressed-webfont.woff",
+		"oF": 0
+		},
+	"/style/ddchardware-compressed-webfont.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/style/ddchardware-compressed-webfont.woff2",
+		"oF": 0
+		},
+	"/style/scss/_fonts.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_fonts.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/scss/_grid.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_grid.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/scss/_mixins.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_mixins.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/scss/_navigation.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_navigation.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/scss/_reset.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_reset.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/scss/_variables.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/scss/_variables.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"/style/style.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 1,
+		"oAP": "/style/style-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"/style/style.css.map": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "/style/style.css.map",
+		"oF": 0
+		},
+	"/style/style.scss": {
+		"aP": 1,
+		"bl": 0,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 1,
+		"oA": 0,
+		"oAP": "/style/style.css",
+		"oF": 2,
+		"oS": 0,
+		"uL": 1
+		}
+	},
+"hooks": [
+	],
+"manualImportLinks": {
+	},
+"projectAttributes": {
+	"creationDate": 567654080.25841296,
+	"displayValue": "allannoyes",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "meme-maroney",
+	"iconImageWasSetByUser": 0,
+	"lastBuiltDate": 568345598.92746794
+	},
+"projectSettings": {
+	"abortBuildOnError": 1,
+	"alwaysUseExternalServer": 1,
+	"animateCSSInjections": 1,
+	"autoBuildNewItems": 1,
+	"autoprefixerEnableIEGrid": 1,
+	"babel7PresetType": 1,
+	"babelAllowRCFiles": 0,
+	"babelAuxiliaryCommentAfter": "",
+	"babelAuxiliaryCommentBefore": "",
+	"babelConfigType": 0,
+	"babelCustomPluginsList": "",
+	"babelCustomPresetsList": "",
+	"babelInsertModuleIDs": 0,
+	"babelModuleID": "",
+	"babelNoComments": 0,
+	"babelPlugins": {
+		"arrow-functions": {
+			"active": 0
+			},
+		"async-generator-functions": {
+			"active": 0
+			},
+		"async-to-generator": {
+			"active": 0
+			},
+		"block-scoped-functions": {
+			"active": 0
+			},
+		"block-scoping": {
+			"active": 0
+			},
+		"class-properties": {
+			"active": 0
+			},
+		"classes": {
+			"active": 0
+			},
+		"computed-properties": {
+			"active": 0
+			},
+		"decorators": {
+			"active": 0
+			},
+		"destructuring": {
+			"active": 0
+			},
+		"do-expressions": {
+			"active": 0
+			},
+		"dotall-regex": {
+			"active": 0
+			},
+		"duplicate-keys": {
+			"active": 0
+			},
+		"exponentiation-operator": {
+			"active": 0
+			},
+		"export-default-from": {
+			"active": 0
+			},
+		"export-namespace-from": {
+			"active": 0
+			},
+		"external-helpers": {
+			"active": 0
+			},
+		"flow-strip-types": {
+			"active": 0
+			},
+		"for-of": {
+			"active": 0
+			},
+		"function-bind": {
+			"active": 0
+			},
+		"function-name": {
+			"active": 0
+			},
+		"function-sent": {
+			"active": 0
+			},
+		"instanceof": {
+			"active": 0
+			},
+		"jscript": {
+			"active": 0
+			},
+		"literals": {
+			"active": 0
+			},
+		"logical-assignment-operators": {
+			"active": 0
+			},
+		"member-expression-literals": {
+			"active": 0
+			},
+		"merge-sibling-variables": {
+			"active": 0
+			},
+		"minify-booleans": {
+			"active": 0
+			},
+		"modules-amd": {
+			"active": 0
+			},
+		"modules-commonjs": {
+			"active": 0
+			},
+		"modules-systemjs": {
+			"active": 0
+			},
+		"modules-umd": {
+			"active": 0
+			},
+		"new-target": {
+			"active": 0
+			},
+		"node-env-inline": {
+			"active": 0
+			},
+		"nullish-coalescing-operator": {
+			"active": 0
+			},
+		"numeric-separator": {
+			"active": 0
+			},
+		"object-assign": {
+			"active": 0
+			},
+		"object-rest-spread": {
+			"active": 0
+			},
+		"object-set-prototype-of-to-assign": {
+			"active": 0
+			},
+		"object-super": {
+			"active": 0
+			},
+		"optional-catch-binding": {
+			"active": 0
+			},
+		"optional-chaining": {
+			"active": 0
+			},
+		"parameters": {
+			"active": 0
+			},
+		"pipeline-operator": {
+			"active": 0
+			},
+		"property-literals": {
+			"active": 0
+			},
+		"property-mutators": {
+			"active": 0
+			},
+		"proto-to-assign": {
+			"active": 0
+			},
+		"react-constant-elements": {
+			"active": 0
+			},
+		"react-display-name": {
+			"active": 0
+			},
+		"react-inline-elements": {
+			"active": 0
+			},
+		"react-jsx": {
+			"active": 0
+			},
+		"react-jsx-compat": {
+			"active": 0
+			},
+		"react-jsx-self": {
+			"active": 0
+			},
+		"react-jsx-source": {
+			"active": 0
+			},
+		"regenerator": {
+			"active": 0
+			},
+		"remove-console": {
+			"active": 0
+			},
+		"remove-debugger": {
+			"active": 0
+			},
+		"reserved-words": {
+			"active": 0
+			},
+		"runtime": {
+			"active": 0
+			},
+		"shorthand-properties": {
+			"active": 0
+			},
+		"simplify-comparison-operators": {
+			"active": 0
+			},
+		"spread": {
+			"active": 0
+			},
+		"sticky-regex": {
+			"active": 0
+			},
+		"strict-mode": {
+			"active": 0
+			},
+		"template-literals": {
+			"active": 0
+			},
+		"throw-expressions": {
+			"active": 0
+			},
+		"typeof-symbol": {
+			"active": 0
+			},
+		"undefined-to-void": {
+			"active": 0
+			},
+		"unicode-property-regex": {
+			"active": 0
+			},
+		"unicode-regex": {
+			"active": 0
+			}
+		},
+	"babelRetainLines": 0,
+	"bowerAbbreviatedPath": "bower_components",
+	"bowerAutoCreateInfoFile": 1,
+	"bowerInstallDevDependencies": 0,
+	"bowerSaveDependencies": 1,
+	"bowerSaveDevDependencies": 0,
+	"bowerUseExactVersion": 0,
+	"browserRefreshDelay": 0,
+	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
+	"buildFolderActive": 0,
+	"buildFolderName": "build",
+	"cleanBuild": 1,
+	"coffeeLintFlags2": {
+		"arrow_spacing": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camel_case_classes": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"colon_assignment_spacing": {
+			"active": 0,
+			"flagValue": 1
+			},
+		"cyclomatic_complexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"duplicate_key": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"ensure_comprehensions": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indentation": {
+			"active": 1,
+			"flagValue": 2
+			},
+		"line_endings": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"max_line_length": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"missing_fat_arrows": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newlines_after_classes": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"no_backticks": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_empty_functions": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_empty_param_list": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_implicit_braces": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_implicit_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_interpolation_in_single_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_nested_string_interpolation": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_private_function_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_stand_alone_at": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_tabs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_throwing_strings": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_trailing_whitespace": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"no_unnecessary_double_quotes": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"no_unnecessary_fat_arrows": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"non_empty_constructor_needs_parens": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"space_operators": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"spacing_after_comma": {
+			"active": 1,
+			"flagValue": -1
+			}
+		},
+	"esLintConfigFileHandlingType": 0,
+	"esLintECMAVersion": 7,
+	"esLintEnvironmentsMask": 1,
+	"esLintRules": {
+		"accessor-pairs": {
+			"active": 0,
+			"optionString": "{'setWithoutGet': true, 'getWithoutSet': false}"
+			},
+		"array-bracket-newline": {
+			"active": 0,
+			"optionString": "{'multiline': true, 'minItems': null}"
+			},
+		"array-bracket-spacing": {
+			"active": 0,
+			"optionString": "'never', {'singleValue': false, 'objectsInArrays': false, 'arraysInArrays': false}"
+			},
+		"array-callback-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"array-element-newline": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-body-style": {
+			"active": 0,
+			"optionString": "'as-needed', {'requireReturnForObjectLiteral': false}"
+			},
+		"arrow-parens": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"arrow-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true}"
+			},
+		"block-scoped-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"block-spacing": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"brace-style": {
+			"active": 0,
+			"optionString": "'1tbs', {'allowSingleLine': true}"
+			},
+		"callback-return": {
+			"active": 0,
+			"optionString": "['callback', 'cb', 'next']"
+			},
+		"camelcase": {
+			"active": 0,
+			"optionString": "{'properties': 'always', 'ignoreDestructuring': false}"
+			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
+		"class-methods-use-this": {
+			"active": 0,
+			"optionString": "{'exceptMethods': []}"
+			},
+		"comma-dangle": {
+			"active": 1,
+			"optionString": "'never'"
+			},
+		"comma-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"comma-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"complexity": {
+			"active": 0,
+			"optionString": "20"
+			},
+		"computed-property-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"consistent-return": {
+			"active": 0,
+			"optionString": "{'treatUndefinedAsUnspecified': false}"
+			},
+		"consistent-this": {
+			"active": 0,
+			"optionString": "'that'"
+			},
+		"constructor-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"curly": {
+			"active": 0,
+			"optionString": "'all'"
+			},
+		"default-case": {
+			"active": 0,
+			"optionString": ""
+			},
+		"dot-location": {
+			"active": 0,
+			"optionString": "'object'"
+			},
+		"dot-notation": {
+			"active": 0,
+			"optionString": "{'allowKeywords': false}"
+			},
+		"eol-last": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"eqeqeq": {
+			"active": 0,
+			"optionString": "'always', {'null': 'always'}"
+			},
+		"for-direction": {
+			"active": 0,
+			"optionString": ""
+			},
+		"func-call-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"func-name-matching": {
+			"active": 0,
+			"optionString": "'always', {'considerPropertyDescriptor': false, 'includeCommonJSModuleExports': false}"
+			},
+		"func-names": {
+			"active": 0,
+			"optionString": "'always', {'generators': 'always'}"
+			},
+		"func-style": {
+			"active": 0,
+			"optionString": "'expression'"
+			},
+		"function-paren-newline": {
+			"active": 0,
+			"optionString": "'multiline'"
+			},
+		"generator-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': false}"
+			},
+		"getter-return": {
+			"active": 0,
+			"optionString": "{'allowImplicit': false}"
+			},
+		"global-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"guard-for-in": {
+			"active": 0,
+			"optionString": ""
+			},
+		"handle-callback-err": {
+			"active": 0,
+			"optionString": "'err'"
+			},
+		"id-blacklist": {
+			"active": 0,
+			"optionString": "'data', 'err', 'e', 'cb', 'callback'"
+			},
+		"id-length": {
+			"active": 0,
+			"optionString": "{'min': 2, 'max': 1000, 'properties': 'always', 'exceptions': ['x', 'i', 'y']}"
+			},
+		"id-match": {
+			"active": 0,
+			"optionString": "'^[a-z]+([A-Z][a-z]+)*$', {'properties': false, 'onlyDeclarations': true}"
+			},
+		"implicit-arrow-linebreak": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"indent": {
+			"active": 0,
+			"optionString": "4, {'SwitchCase': 0, 'VariableDeclarator': 1, 'outerIIFEBody': 1 }"
+			},
+		"init-declarations": {
+			"active": 0,
+			"optionString": "'always',  {'ignoreForLoopInit': true}"
+			},
+		"jsx-quotes": {
+			"active": 0,
+			"optionString": "'prefer-double'"
+			},
+		"key-spacing": {
+			"active": 0,
+			"optionString": "{'singleLine': {'beforeColon': false, 'afterColon': true, 'mode':'strict'}, 'multiLine': {'beforeColon': false, 'afterColon': true, 'align': 'value', 'mode':'minimum'}}"
+			},
+		"keyword-spacing": {
+			"active": 0,
+			"optionString": "{'before': true, 'after': true, 'overrides': {}}"
+			},
+		"line-comment-position": {
+			"active": 0,
+			"optionString": "{'position': 'above'}"
+			},
+		"linebreak-style": {
+			"active": 0,
+			"optionString": "'unix'"
+			},
+		"lines-around-comment": {
+			"active": 0,
+			"optionString": "{'beforeBlockComment': true}"
+			},
+		"lines-between-class-members": {
+			"active": 0,
+			"optionString": "'always', {exceptAfterSingleLine: false}"
+			},
+		"max-classes-per-file": {
+			"active": 0,
+			"optionString": "1"
+			},
+		"max-depth": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-len": {
+			"active": 0,
+			"optionString": "{'code': 80, 'comments': 80, 'tabWidth': 4, 'ignoreUrls': true, 'ignoreStrings': true, 'ignoreTemplateLiterals': true, 'ignoreRegExpLiterals': true}"
+			},
+		"max-lines": {
+			"active": 0,
+			"optionString": "{'max': 300, 'skipBlankLines': true, 'skipComments': true}"
+			},
+		"max-lines-per-function": {
+			"active": 0,
+			"optionString": "{'max': 50, 'skipBlankLines': true, 'skipComments': true, 'IIFEs': false}"
+			},
+		"max-nested-callbacks": {
+			"active": 0,
+			"optionString": "{'max': 10}"
+			},
+		"max-params": {
+			"active": 0,
+			"optionString": "{'max': 4}"
+			},
+		"max-statements": {
+			"active": 0,
+			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
+			},
+		"multiline-comment-style": {
+			"active": 0,
+			"optionString": "'starred-block'"
+			},
+		"multiline-ternary": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"new-cap": {
+			"active": 0,
+			"optionString": "{'newIsCap': true, 'capIsNew': true, 'newIsCapExceptions': [], 'capIsNewExceptions': ['Array', 'Boolean', 'Date', 'Error', 'Function', 'Number', 'Object', 'RegExp', 'String', 'Symbol'], 'properties': true}"
+			},
+		"new-parens": {
+			"active": 0,
+			"optionString": ""
+			},
+		"newline-per-chained-call": {
+			"active": 0,
+			"optionString": "{'ignoreChainWithDepth': 2}"
+			},
+		"no-alert": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-array-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-async-promise-executor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-bitwise": {
+			"active": 0,
+			"optionString": "{'allow': ['~'], 'int32Hint': true}"
+			},
+		"no-buffer-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-caller": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-case-declarations": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-class-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-cond-assign": {
+			"active": 1,
+			"optionString": "'except-parens'"
+			},
+		"no-confusing-arrow": {
+			"active": 0,
+			"optionString": "{'allowParens': false}"
+			},
+		"no-console": {
+			"active": 1,
+			"optionString": "{'allow': ['warn', 'error']}"
+			},
+		"no-const-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-constant-condition": {
+			"active": 1,
+			"optionString": "{'checkLoops': true}"
+			},
+		"no-continue": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-control-regex": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-debugger": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-delete-var": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-div-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-dupe-args": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-class-members": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-dupe-keys": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-duplicate-imports": {
+			"active": 0,
+			"optionString": "{'includeExports': false}"
+			},
+		"no-else-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-empty": {
+			"active": 1,
+			"optionString": "{'allowEmptyCatch': false}"
+			},
+		"no-empty-character-class": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-empty-function": {
+			"active": 0,
+			"optionString": "{'allow': []}"
+			},
+		"no-empty-pattern": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-eq-null": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-eval": {
+			"active": 0,
+			"optionString": "{'allowIndirect': false}"
+			},
+		"no-ex-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extend-native": {
+			"active": 0,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-extra-bind": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-boolean-cast": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-extra-labels": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-extra-parens": {
+			"active": 0,
+			"optionString": "'all', {'conditionalAssign': false, 'returnAssign': false, 'nestedBinaryExpressions': false, 'ignoreJSX': 'none', 'enforceForArrowConditionals': false}"
+			},
+		"no-extra-semi": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-fallthrough": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-floating-decimal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-func-assign": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-global-assign": {
+			"active": 1,
+			"optionString": "{'exceptions': []}"
+			},
+		"no-implicit-coercion": {
+			"active": 0,
+			"optionString": "{'boolean': true, 'number': true, 'string': true, 'allow': []}"
+			},
+		"no-implicit-globals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-implied-eval": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inline-comments": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-inner-declarations": {
+			"active": 1,
+			"optionString": "'functions'"
+			},
+		"no-invalid-regexp": {
+			"active": 1,
+			"optionString": "{'allowConstructorFlags': ['u', 'y']}"
+			},
+		"no-invalid-this": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-irregular-whitespace": {
+			"active": 1,
+			"optionString": "{'skipStrings': true, 'skipComments': false, 'skipRegExps': true, 'skipTemplates': true}"
+			},
+		"no-iterator": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-label-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-labels": {
+			"active": 0,
+			"optionString": "{'allowLoop': false, 'allowSwitch': false}"
+			},
+		"no-lone-blocks": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-lonely-if": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-loop-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-magic-numbers": {
+			"active": 0,
+			"optionString": "{'ignore': [], 'ignoreArrayIndexes': true, 'enforceConst': false, 'detectObjects': false}"
+			},
+		"no-misleading-character-class": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-mixed-operators": {
+			"active": 0,
+			"optionString": "{'groups': [['+', '-', '*', '/', '%', '**'], ['&', '|', '^', '~', '<<', '>>', '>>>'], ['==', '!=', '===', '!==', '>', '>=', '<', '<='], ['&&', '||'], ['in', 'instanceof']], 'allowSamePrecedence': true}"
+			},
+		"no-mixed-requires": {
+			"active": 0,
+			"optionString": "{'grouping': false, 'allowCall': false }"
+			},
+		"no-mixed-spaces-and-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multi-spaces": {
+			"active": 0,
+			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
+			},
+		"no-multi-str": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-multiple-empty-lines": {
+			"active": 0,
+			"optionString": "{'max': 2, 'maxBOF': 2, 'maxEOF': 2}"
+			},
+		"no-negated-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-nested-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-func": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-object": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-require": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-new-symbol": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-new-wrappers": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-obj-calls": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-octal-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-param-reassign": {
+			"active": 0,
+			"optionString": "{'props': false}"
+			},
+		"no-path-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-plusplus": {
+			"active": 0,
+			"optionString": "{'allowForLoopAfterthoughts': false}"
+			},
+		"no-process-env": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-process-exit": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-proto": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-prototype-builtins": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-redeclare": {
+			"active": 1,
+			"optionString": "{'builtinGlobals': false}"
+			},
+		"no-regex-spaces": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-restricted-globals": {
+			"active": 0,
+			"optionString": "'event', 'fdescribe'"
+			},
+		"no-restricted-imports": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-modules": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-restricted-properties": {
+			"active": 0,
+			"optionString": "[{'object': 'disallowedObjectName', 'property': 'disallowedPropertyName'}, {'object': 'disallowedObjectName', 'property': 'anotherDisallowedPropertyName', 'message': 'Please use allowedObjectName.allowedPropertyName.'}]"
+			},
+		"no-restricted-syntax": {
+			"active": 0,
+			"optionString": "'FunctionExpression', 'WithStatement'"
+			},
+		"no-return-assign": {
+			"active": 0,
+			"optionString": "'except-parens'"
+			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-script-url": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-self-assign": {
+			"active": 1,
+			"optionString": "{'props': true}"
+			},
+		"no-self-compare": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sequences": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-shadow": {
+			"active": 0,
+			"optionString": "{'builtinGlobals': false, 'hoist': 'functions', 'allow': []}"
+			},
+		"no-shadow-restricted-names": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-sparse-arrays": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-sync": {
+			"active": 0,
+			"optionString": "{'allowAtRootLevel': false}"
+			},
+		"no-tabs": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-template-curly-in-string": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-ternary": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-this-before-super": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-throw-literal": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-trailing-spaces": {
+			"active": 0,
+			"optionString": "{'skipBlankLines': false, 'ignoreComments': false}"
+			},
+		"no-undef": {
+			"active": 1,
+			"optionString": "{'typeof': false}"
+			},
+		"no-undef-init": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-undefined": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-underscore-dangle": {
+			"active": 0,
+			"optionString": "{'allow': [], 'allowAfterThis': false, 'allowAfterSuper': false, 'enforceInMethodNames': false}"
+			},
+		"no-unexpected-multiline": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unmodified-loop-condition": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-unneeded-ternary": {
+			"active": 0,
+			"optionString": "{'defaultAssignment': true}"
+			},
+		"no-unreachable": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-finally": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unsafe-negation": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-expressions": {
+			"active": 0,
+			"optionString": "{'allowShortCircuit': false, 'allowTernary': false, 'allowTaggedTemplates': false}"
+			},
+		"no-unused-labels": {
+			"active": 1,
+			"optionString": ""
+			},
+		"no-unused-vars": {
+			"active": 1,
+			"optionString": "{'vars': 'all', 'args': 'after-used', 'caughtErrors': 'none', 'ignoreRestSiblings': false}"
+			},
+		"no-use-before-define": {
+			"active": 0,
+			"optionString": "{'functions': true, 'classes': true, 'variables': true}"
+			},
+		"no-useless-call": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-computed-key": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-concat": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-constructor": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-escape": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-useless-rename": {
+			"active": 0,
+			"optionString": "{'ignoreDestructuring': false, 'ignoreImport': false, 'ignoreExport': false}"
+			},
+		"no-useless-return": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-var": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-void": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-warning-comments": {
+			"active": 0,
+			"optionString": "{'terms': ['todo', 'fixme', 'xxx'], 'location': 'start'}"
+			},
+		"no-whitespace-before-property": {
+			"active": 0,
+			"optionString": ""
+			},
+		"no-with": {
+			"active": 0,
+			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
+			},
+		"object-curly-newline": {
+			"active": 0,
+			"optionString": "{'ObjectExpression': {'multiline': true, 'consistent': true}, 'ObjectPattern': {'multiline': true, 'consistent': true}}"
+			},
+		"object-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"object-property-newline": {
+			"active": 0,
+			"optionString": "{'allowAllPropertiesOnSameLine': true}"
+			},
+		"object-shorthand": {
+			"active": 0,
+			"optionString": "'always', {'avoidQuotes': false, 'ignoreConstructors': false}"
+			},
+		"one-var": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"one-var-declaration-per-line": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-assignment": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"operator-linebreak": {
+			"active": 0,
+			"optionString": "'after', {'overrides': {'?': 'after', '+=': 'none'}}"
+			},
+		"padded-blocks": {
+			"active": 0,
+			"optionString": "{'blocks': 'always', 'switches': 'always', 'classes': 'always'}"
+			},
+		"padding-line-between-statements": {
+			"active": 0,
+			"optionString": "{blankLine: 'always', prev:'*', next:'return'}"
+			},
+		"prefer-arrow-callback": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-const": {
+			"active": 0,
+			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
+			},
+		"prefer-numeric-literals": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-object-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
+		"prefer-rest-params": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-spread": {
+			"active": 0,
+			"optionString": ""
+			},
+		"prefer-template": {
+			"active": 0,
+			"optionString": ""
+			},
+		"quote-props": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"quotes": {
+			"active": 0,
+			"optionString": "'double', {'avoidEscape': true, 'allowTemplateLiterals': true}"
+			},
+		"radix": {
+			"active": 0,
+			"optionString": "'always'"
+			},
+		"require-atomic-updates": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-jsdoc": {
+			"active": 0,
+			"optionString": "{'require': {'FunctionDeclaration': true, 'MethodDefinition': false, 'ClassDeclaration': false, 'ArrowFunctionExpression': false}}"
+			},
+		"require-unicode-regexp": {
+			"active": 0,
+			"optionString": ""
+			},
+		"require-yield": {
+			"active": 1,
+			"optionString": ""
+			},
+		"rest-spread-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"semi": {
+			"active": 0,
+			"optionString": "'always', {'omitLastInOneLineBlock': false}"
+			},
+		"semi-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"semi-style": {
+			"active": 0,
+			"optionString": "'last'"
+			},
+		"sort-imports": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false, 'ignoreMemberSort': true, 'memberSyntaxSortOrder': ['none', 'all', 'multiple', 'single']}"
+			},
+		"sort-keys": {
+			"active": 0,
+			"optionString": "'asc', {'caseSensitive': true, 'natural': false}"
+			},
+		"sort-vars": {
+			"active": 0,
+			"optionString": "{'ignoreCase': false}"
+			},
+		"space-before-blocks": {
+			"active": 0,
+			"optionString": "{'functions': 'always', 'keywords': 'always', 'classes': 'always'}"
+			},
+		"space-before-function-paren": {
+			"active": 0,
+			"optionString": "{'anonymous': 'always', 'named': 'never'}"
+			},
+		"space-in-parens": {
+			"active": 0,
+			"optionString": "'never', {'exceptions': []}"
+			},
+		"space-infix-ops": {
+			"active": 0,
+			"optionString": "{'int32Hint': false}"
+			},
+		"space-unary-ops": {
+			"active": 0,
+			"optionString": "{'words': true, 'nonwords': false, 'overrides': {}}"
+			},
+		"spaced-comment": {
+			"active": 0,
+			"optionString": "'always', {'line': {'markers': ['/'], 'exceptions': ['-', '+']}, 'block': {'markers': ['!'], 'exceptions': ['*'], 'balanced': false}}"
+			},
+		"strict": {
+			"active": 0,
+			"optionString": "'safe'"
+			},
+		"switch-colon-spacing": {
+			"active": 0,
+			"optionString": "{'after': true, 'before': false}"
+			},
+		"symbol-description": {
+			"active": 0,
+			"optionString": ""
+			},
+		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"unicode-bom": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"use-isnan": {
+			"active": 1,
+			"optionString": ""
+			},
+		"valid-jsdoc": {
+			"active": 0,
+			"optionString": "{'prefer': {'return': 'returns'}, 'requireReturn': true, 'requireReturnDescription': true, 'requireReturnType': true, 'requireParamDescription': true}"
+			},
+		"valid-typeof": {
+			"active": 1,
+			"optionString": "{'requireStringLiterals': true}"
+			},
+		"vars-on-top": {
+			"active": 0,
+			"optionString": ""
+			},
+		"wrap-iife": {
+			"active": 0,
+			"optionString": "'outside'"
+			},
+		"wrap-regex": {
+			"active": 0,
+			"optionString": ""
+			},
+		"yield-star-spacing": {
+			"active": 0,
+			"optionString": "{'before': false, 'after': true}"
+			},
+		"yoda": {
+			"active": 0,
+			"optionString": "'never', {'exceptRange': false, 'onlyEquality': false}"
+			}
+		},
+	"esLintSourceType": 0,
+	"externalServerAddress": "http://localhost:8888",
+	"gitIgnoreBuildFolder": 1,
+	"hideConfigFile": 0,
+	"jsCheckerReservedNamesString": "",
+	"jsHintFlags2": {
+		"asi": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bitwise": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"boss": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"browserify": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"camelcase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"curly": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"debug": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"dojo": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"elision": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqeqeq": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eqnull": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es3": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"esnext": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evil": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"expr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"forin": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"freeze": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"funcscope": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"futurehostile": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"globalstrict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"immed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"indent": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"iterator": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jasmine": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"jquery": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"lastsemic": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"latedef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"laxbreak": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"laxcomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loopfunc": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxcomplexity": {
+			"active": 0,
+			"flagValue": 10
+			},
+		"maxdepth": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"maxparams": {
+			"active": 0,
+			"flagValue": 3
+			},
+		"maxstatements": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"mocha": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"mootools": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"moz": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"multistr": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"newcap": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noarg": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nocomma": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"noempty": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonbsp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"nonew": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"nonstandard": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"notypeof": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"noyield": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"onecase": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"phantom": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"plusplus": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"prototypejs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"qunit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"regexp": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"rhino": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"scripturl": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shadow": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"shelljs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"singleGroups": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"strict": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"sub": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"supernew": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typed": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"undef": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"varstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"withstmt": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"worker": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"wsh": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"yui": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"jsLintFlags2": {
+		"bitwise": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"browser": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"couch": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"devel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"es6": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"for": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"maxlen": {
+			"active": 0,
+			"flagValue": 150
+			},
+		"node": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"this": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"white": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"languageDefaultsCOFFEE": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"outputStyle": 0,
+		"syntaxCheckerStyle": 1,
+		"transpilerStyle": 1
+		},
+	"languageDefaultsCSS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.css",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"outputStyle": 3,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsGIF": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.gif",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0
+		},
+	"languageDefaultsHAML": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"escapeHTMLCharacters": 0,
+		"noEscapeInAttributes": 0,
+		"outputFormat": 2,
+		"shouldRunCacheBuster": 0,
+		"useCDATA": 0,
+		"useDoubleQuotes": 0,
+		"useUnixNewlines": 0
+		},
+	"languageDefaultsJPG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.jpg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
+		"quality": 100
+		},
+	"languageDefaultsJS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*-min.js",
+		"autoOutputPathRelativePath": "/min",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 1,
+		"syntaxCheckerStyle": 3,
+		"transpilerStyle": 0
+		},
+	"languageDefaultsJSON": {
+		"autoOutputAction": 1,
+		"autoOutputPathFilenamePattern": "*-min.json",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"orderOutput": 0,
+		"outputStyle": 1
+		},
+	"languageDefaultsKIT": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "kit",
+		"autoOutputPathReplace2": "html",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsLESS": {
+		"allowInsecureImports": 0,
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "less",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 1,
+		"enableJavascript": 0,
+		"ieCompatibility": 0,
+		"mathStyle": 0,
+		"outputStyle": 0,
+		"rewriteURLStyle": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0,
+		"strictImports": 0,
+		"strictUnits": 0
+		},
+	"languageDefaultsMARKDOWN": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"criticStyle": 0,
+		"enableFootnotes": 1,
+		"enableLabels": 1,
+		"enableSmartQuotes": 1,
+		"maskEmailAddresses": 1,
+		"outputFormat": 0,
+		"outputStyle": 0,
+		"parseMetadata": 1,
+		"processHTML": 0,
+		"randomFootnoteNumbers": 0,
+		"shouldRunCacheBuster": 0,
+		"useCompatibilityMode": 0
+		},
+	"languageDefaultsOTHER": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.*",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsPNG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.png",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"optimizerType": 1,
+		"quality": 100
+		},
+	"languageDefaultsPUG": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileDebug": 1,
+		"outputStyle": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSASS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../",
+		"autoOutputPathReplace1": "sass",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 1
+		},
+	"languageDefaultsSLIM": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.html",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"compileOnly": 0,
+		"logicless": 0,
+		"outputFormat": 0,
+		"outputStyle": 1,
+		"railsCompatible": 0,
+		"shouldRunCacheBuster": 0
+		},
+	"languageDefaultsSTYLUS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.css",
+		"autoOutputPathRelativePath": "../css",
+		"autoOutputPathReplace1": "stylus",
+		"autoOutputPathReplace2": "css",
+		"autoOutputPathStyle": 0,
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"importCSS": 0,
+		"outputStyle": 0,
+		"resolveRelativeURLS": 0,
+		"shouldRunAutoprefixer": 0,
+		"shouldRunBless": 0
+		},
+	"languageDefaultsSVG": {
+		"autoOutputAction": 2,
+		"autoOutputPathFilenamePattern": "*.svg",
+		"autoOutputPathRelativePath": "",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"pluginMask": 3758088159
+		},
+	"languageDefaultsTS": {
+		"autoOutputAction": 0,
+		"autoOutputPathFilenamePattern": "*.js",
+		"autoOutputPathRelativePath": "/js",
+		"autoOutputPathReplace1": "",
+		"autoOutputPathReplace2": "",
+		"autoOutputPathStyle": 0,
+		"createDeclarationFile": 0,
+		"createSourceMap": 0,
+		"minifyOutput": 0,
+		"moduleResolutionType": 0,
+		"moduleType": 2,
+		"removeComments": 0,
+		"targetECMAVersion": 0
+		},
+	"languageDefaultsUserDefined": [
+		],
+	"overrideExternalServerCSS": 0,
+	"previewPathAddition": "",
+	"skippedFoldersString": "log, _logs, logs, _cache, cache, .idea, /storage/framework/sessions, node_modules",
+	"sourceFolderName": "source",
+	"susyVersion": 3,
+	"tsAllowSyntheticDefaultImports": 0,
+	"tsAllowUnreachableCode": 0,
+	"tsAllowUnusedLabels": 0,
+	"tsAlwaysStrict": 0,
+	"tsDownlevelIteration": 0,
+	"tsEmitBOM": 0,
+	"tsEmitDecoratorMetadata": 0,
+	"tsESModuleInterop": 0,
+	"tsForceConsistentCasingInFileNames": 0,
+	"tsImportHelpers": 0,
+	"tsIsolatedModules": 0,
+	"tsJSXFactory": "React.createElement",
+	"tsKeyofStringsOnly": 0,
+	"tsNoEmitHelpers": 0,
+	"tsNoFallthroughCasesInSwitch": 0,
+	"tsNoImplicitAny": 0,
+	"tsNoImplicitReturns": 0,
+	"tsNoImplicitThis": 0,
+	"tsNoImplicitUseStrict": 0,
+	"tsNoLib": 0,
+	"tsNoResolve": 0,
+	"tsNoStrictGenericChecks": 0,
+	"tsNoUnusedLocals": 0,
+	"tsNoUnusedParameters": 0,
+	"tsPreserveConstEnums": 0,
+	"tsPreserveSymlinks": 0,
+	"tsResolveJsonModule": 0,
+	"tsSkipLibCheck": 0,
+	"tsStrictFunctionTypes": 0,
+	"tsStrictNullChecks": 0,
+	"tsStrictPropertyInitialization": 0,
+	"tsStripInternal": 0,
+	"tsSuppressExcessPropertyErrors": 0,
+	"tsSuppressImplicitAnyIndexErrors": 0,
+	"uglifyDefinesString": "",
+	"uglifyFlags2": {
+		"arguments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ascii_only": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"bare_returns": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"booleans": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"braces": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"collapse_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"comments": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"comparisons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"compress": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"conditionals": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"dead_code": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"directives": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"drop_console": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"drop_debugger": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"eval": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"evaluate": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"expression": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_funs": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"hoist_props": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"hoist_vars": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"html5_comments": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"ie8": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"if_return": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"indent-start": {
+			"active": 0,
+			"flagValue": 0
+			},
+		"indent_level": {
+			"active": 0,
+			"flagValue": 4
+			},
+		"inline": {
+			"active": 1,
+			"flagValue": 3
+			},
+		"inline_script": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"join_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fargs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"keep_fnames": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_infinity": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"keep_quoted_props": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"loops": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"mangle": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"max_line_len": {
+			"active": 1,
+			"flagValue": 32000
+			},
+		"negate_iife": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"passes": {
+			"active": 1,
+			"flagValue": 1
+			},
+		"preserve_line": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"properties": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"pure_getters": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_keys": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"quote_style": {
+			"active": 1,
+			"flagValue": 0
+			},
+		"reduce_funcs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"reduce_vars": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"semicolons": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"sequences": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"shebang": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"side_effects": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"switches": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"toplevel": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"typeofs": {
+			"active": 1,
+			"flagValue": -1
+			},
+		"unsafe": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_comps": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_Function": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_math": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_proto": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_regexp": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unsafe_undefined": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"unused": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"warnings": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"webkit": {
+			"active": 0,
+			"flagValue": -1
+			},
+		"width": {
+			"active": 1,
+			"flagValue": 80
+			},
+		"wrap_iife": {
+			"active": 0,
+			"flagValue": -1
+			}
+		},
+	"uglifyReservedNamesString": "$,exports,require",
+	"websiteRelativeRoot": ""
+	},
+"settingsFileVersion": "3"
+}

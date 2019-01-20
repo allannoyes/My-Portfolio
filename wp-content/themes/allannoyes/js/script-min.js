@@ -1,0 +1,1 @@
+function toggle(){var l=document.getElementById("toggleClass");"block"===l.style.display?l.style.display="none":l.style.display="block"}
