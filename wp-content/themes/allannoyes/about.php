@@ -18,6 +18,7 @@
 						<div class="two-col-list">
 							<h3>Skills</h3>
 							<ul>
+								<li>Adobe Creative Suite</li>
 								<li>Print Design</li>
 								<li>Branding</li>
 								<li>Web Design</li>
@@ -26,7 +27,7 @@
 								<li>HTML & CSS</li>
 								<li>Wordpress</li>
 								<li>Screen Printing</li>
-								<li>Adobe Creative Suite</li>
+								<li>Sketch</li>
 								<li>Driving Tractor</li>
 							</ul>
 						</div>
@@ -34,10 +35,10 @@
 							<h3>Interests</h3>
 							<ul>
 								<li>Camping</li>
-								<li>Learning New Things</li>
-								<li>Flying</li>
-								<li>Road Trips</li>
 								<li>Woodworking</li>
+								<li>Road Trips</li>
+								<li>Flying</li>
+								<li>Learning New Things</li>
 							</ul>
 						</div>
 					</div>

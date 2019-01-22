@@ -32,7 +32,7 @@
 				</p>
 			</div>
 			<div class="project-footer">
-				<a href="index.html" class="nav-back">Back to Projects</a>
+				<a href="<?php echo site_url(); ?>" class="nav-back">Back to Projects</a>
 				<div class="details-toggle">Details</div>
 			</div>
 		</aside>

@@ -15,40 +15,40 @@
 			</div>
 
 		<!-------- SOLOMON CORPORATION --------->
-			<a href="/allannoyes.com/solomon-corporation/" class="project solomon">
+			<a href="<?php echo get_permalink(112); ?>" class="project solomon">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>Solomon<br>Corporation</h4>
+						<h4>Solomon <br>Corporation</h4>
 						<p>Advertisement</p>
 					</div>
 				</div>
 			</a>
 
 		<!-------- MACHINE MADNESS --------->
-			<a href="/allannoyes.com/claas/" class="project machine-madness">
+			<a href="<?php echo get_permalink(13); ?>" class="project machine-madness">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>CLAAS<br>#MachineMadness</h4>
+						<h4>CLAAS <br>of America</h4>
 						<p>Social Media</p>
 					</div>
 				</div>
 			</a>
 
 		<!-------- MY DOULA MAMA --------->
-			<a href="/allannoyes.com/my-doula-mama/" class="project doula-mama">
+			<a href="<?php echo get_permalink(146); ?>" class="project doula-mama">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>My<br>Doula Mama</h4>
+						<h4>My <br>Doula Mama</h4>
 						<p>Web Design</p>
 					</div>
 				</div>
 			</a>
 
 		<!-------- DONALDSON PRODUCT GUIDE --------->
-			<a href="/allannoyes.com/donaldson-product-guide/" class="project donaldson-guide">
+			<a href="<?php echo get_permalink(162); ?>" class="project donaldson-guide">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>Donaldson</h4>
+						<h4>Donaldson <br>Company</h4>
 						<p>Product Guide</p>
 					</div>
 				</div>
@@ -63,7 +63,7 @@
 			</a> -->
 
 		<!-------- MIZZOU TENNIS --------->
-			<a href="/allannoyes.com/mizzou-tennis/" class="project mizzou-tennis">
+			<a href="<?php echo get_permalink(68); ?>" class="project mizzou-tennis">
 				<div class="project-overlay">
 					<div class="project-info">
 						<h4>MIZZOU Tennis</h4>
@@ -73,10 +73,10 @@
 			</a>
 
 		<!-------- SCSU – The Link --------->
-			<a href="/allannoyes.com/scsu-the-link/" class="project scsu-link">
+			<a href="<?php echo get_permalink(156); ?>" class="project scsu-link">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>SCSU<br>The Link</h4>
+						<h4>St. Cloud State <br>University</h4>
 						<p>Yearly Planner</p>
 					</div>
 				</div>
@@ -85,7 +85,7 @@
 
 
 		<!-------- VARIOUS LOGOS --------->
-			<a href="/allannoyes.com/various-logos/" class="project logos">
+			<a href="<?php echo get_permalink(88); ?>" class="project logos">
 				<div class="project-overlay">
 					<div class="project-info">
 						<h4>Logos</h4>
@@ -95,20 +95,20 @@
 			</a>
 
 		<!-------- APPAREL DESIGNS --------->
-			<a href="/allannoyes.com/apparel-designs/" class="project apparel">
+			<a href="<?php echo get_permalink(136); ?>" class="project apparel">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>Apparel<br>Designs</h4>
+						<h4>Apparel <br>Designs</h4>
 						<p>Clothing</p>
 					</div>
 				</div>
 			</a>
 
 		<!-------- MIZZOU CC --------->
-			<a href="/allannoyes.com/mizzou-cross-country/" class="project mizzou-cc">
+			<a href="<?php echo get_permalink(73); ?>" class="project mizzou-cc">
 				<div class="project-overlay">
 					<div class="project-info">
-						<h4>MIZZOU<br>Cross Country</h4>
+						<h4>MIZZOU <br>Cross Country</h4>
 						<p>Poster</p>
 					</div>
 				</div>

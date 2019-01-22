@@ -19,6 +19,9 @@
 // ::-webkit-scrollbar {
 // display: none;
 // }
+* {
+	overscroll-behavior: none;
+}
 
 a {
 	text-decoration: none;
@@ -144,6 +147,13 @@ li {
  ================ PROJECT PAGE ================
 */
 
+
+
+
+main {
+	font-size: 0;
+}
+
 .project-sidebar {
 	width: 25%;
 	min-height: 100vh;
@@ -227,6 +237,17 @@ main {
 		margin: 20px auto;
 	}
 }
+
+.logo-wall {
+	width: 100%;
+	padding: 30% 35%;
+}
+
+.logo-wall-horizontal {
+	width: 100%;
+	padding: 30% 25%;
+}
+
 
 
 
@@ -429,7 +450,7 @@ main {
 	}
 
 	main {
-		padding: 40px 0 50px;
+		padding: 40px 0 30px;
 	}
 
 	.about, .contact {
@@ -482,4 +503,15 @@ main {
 			}
 		}
 	}
+
+	.logo-wall {
+		width: 100%;
+		padding: 20% 25%;
+	}
+
+	.logo-wall-horizontal {
+		width: 100%;
+		padding: 30% 15%;
+	}
+
 }

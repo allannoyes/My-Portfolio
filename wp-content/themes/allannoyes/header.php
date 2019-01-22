@@ -13,7 +13,7 @@
 		<header>
 			<nav>
 				<div class="nav-bar" id="topNav">
-					<a class="nav-logo" href="allannoyes.com/index.php" alt="Allan Noyes Logo"><span>No</span>Yes</a>
+					<a class="nav-logo" href="<?php echo site_url(); ?>" alt="Allan Noyes Logo"><span>No</span>Yes</a>
 					<ul>
 
 						<?php wp_nav_menu( array( 'theme_location' => 'main-menu' ) ); ?>

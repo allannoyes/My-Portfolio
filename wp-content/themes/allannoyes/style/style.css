@@ -457,6 +457,10 @@ table {
 /*
  ================ GENERAL ================
 */
+* {
+  -ms-scroll-chaining: none;
+      overscroll-behavior: none; }
+
 a {
   text-decoration: none; }
 
@@ -541,6 +545,9 @@ li {
 /*
  ================ PROJECT PAGE ================
 */
+main {
+  font-size: 0; }
+
 .project-sidebar {
   width: 25%;
   min-height: 100vh;
@@ -603,6 +610,14 @@ main {
   .gray-inset img {
     width: 100%;
     margin: 20px auto; }
+
+.logo-wall {
+  width: 100%;
+  padding: 30% 35%; }
+
+.logo-wall-horizontal {
+  width: 100%;
+  padding: 30% 25%; }
 
 /*
  ================ ABOUT PAGE ================
@@ -725,7 +740,7 @@ main {
   #toggleClass {
     display: none; }
   main {
-    padding: 40px 0 50px; }
+    padding: 40px 0 30px; }
   .about, .contact {
     width: 80%;
     margin: 10% 10% 50px; }
@@ -747,5 +762,11 @@ main {
   .grid-container {
     padding-top: 50px; }
   .nav-bar ul a {
-    padding: 5px 10px; } }
+    padding: 5px 10px; }
+  .logo-wall {
+    width: 100%;
+    padding: 20% 25%; }
+  .logo-wall-horizontal {
+    width: 100%;
+    padding: 30% 15%; } }
 /*# sourceMappingURL=style.css.map */
